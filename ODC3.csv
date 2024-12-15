@@ -1,0 +1,401 @@
+Open_Date,Phase_Found,Defect_Type,Missing_Incorrect,Defect_Source,Defect_Impact,Defect_Trigger,Phase_Injected,Severity,Priority,Close_Date,Defect_Location,Sequence
+"1992-09-10","CODE","Function","INCORRECT","PTM/DCR_error","Capability","","CODE","MAJOR","LOW","1992-09-10","CODE",1
+"1992-11-06","UT","Algorithm","INCORRECT","New_Funct/Rewritten","Capability","","CODE","MAJOR","LOW","1992-11-06","UTNI",2
+"1992-11-06","UT","Checking","MISSING","New_Funct/Rewritten","Capability","","CODE","MAJOR","MED","1992-11-06","UTNI",3
+"1992-11-08","CODE","Algorithm","INCORRECT","New_Funct/Rewritten","Capability","Logic Flow","CODE","MAJOR","LOW","1992-11-08","CODE",4
+"1993-03-22","CODE","Documents","INCORRECT","New_Funct/Rewritten","Usability","","CODE","MAJOR","LOW","1993-03-22","CODE",5
+"1993-03-16","PLD","Documents","INCORRECT","","Usability","","PLD","MAJOR","LOW","1993-03-16","PCMLD",6
+"1993-03-16","PLD","Documents","INCORRECT","","Usability","","PLD","MAJOR","LOW","1993-03-16","PCMLD",7
+"1993-03-16","PLD","Documents","INCORRECT","","Usability","","PLD","MAJOR","LOW","1993-03-16","PCMLD",8
+"1993-01-18","PLD","Interface","MISSING","","Capability","","PLD","MAJOR","MED","1993-01-18","PCMLD",9
+"1993-02-25","CODE","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","MAJOR","LOW","1993-02-25","CODE",10
+"1993-02-25","CODE","Interface","INCORRECT","","Reliability/Avail","Recovery/Exception","MLD","MAJOR","MED","1993-02-25","CODE",11
+"1993-03-16","CODE","Function","INCORRECT","New_Funct/Rewritten","Maintain/Service","","CODE","MAJOR","LOW","1993-03-16","CODE",12
+"1993-03-16","CODE","Interface","MISSING","Reused_Code","Reliability/Avail","","CODE","MAJOR","LOW","1993-03-16","CODE",13
+"1993-03-16","CODE","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","MAJOR","LOW","1993-03-16","CODE",14
+"1993-03-16","CODE","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","MAJOR","LOW","1993-03-16","CODE",15
+"1993-01-22","MLD","Function","MISSING","","Performance","Recovery/Exception","MLD","MAJOR","MED","1993-01-22","PCMLD",16
+"1993-01-22","MLD","Interface","INCORRECT","","Capability","","MLD","MAJOR","LOW","1993-01-22","PCMLD",17
+"1992-12-17","CLD","Function","MISSING","","Reliability/Avail","Workload Volume/Stress","CLD","MAJOR","HIGH","1992-12-17","PCMLD",18
+"1993-03-17","CODE","Function","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-03-17","CODE",19
+"1993-03-17","CODE","Function","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-03-17","CODE",20
+"1993-03-17","CODE","Function","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","MED","1993-03-17","CODE",21
+"1993-03-17","CODE","Function","MISSING","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","MED","1993-03-17","CODE",22
+"1993-03-17","CODE","Function","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-03-17","CODE",23
+"1993-04-27","CODE","Interface","MISSING","New_Funct/Rewritten","Reliability/Avail","Workload Volume/Stress","CODE","MAJOR","LOW","1993-04-27","CODE",24
+"1993-04-27","CODE","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Workload Volume/Stress","CODE","MAJOR","LOW","1993-04-27","CODE",25
+"1993-04-27","CODE","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","Workload Volume/Stress","CODE","MAJOR","LOW","1993-04-27","CODE",26
+"1993-04-27","CODE","Checking","MISSING","Rollup/Parallel_Development","Reliability/Avail","","MLD","MAJOR","LOW","1993-04-27","CODE",27
+"1993-03-17","CODE","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","MAJOR","LOW","1993-03-17","CODE",28
+"1993-03-17","CODE","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","MAJOR","MED","1993-03-17","CODE",29
+"1993-03-17","CODE","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","MAJOR","LOW","1993-03-17","CODE",30
+"1993-03-17","CODE","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","MAJOR","MED","1993-03-17","CODE",31
+"1993-03-17","CODE","Function","INCORRECT","New_Funct/Rewritten","Usability","","CODE","MAJOR","LOW","1993-03-17","CODE",32
+"1993-05-03","CODE","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-03","CODE",33
+"1993-05-03","CODE","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-03","CODE",34
+"1993-05-03","CODE","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-03","CODE",35
+"1993-05-03","CODE","Function","MISSING","Rollup/Parallel_Development","Reliability/Avail","","MLD","MAJOR","LOW","1993-05-03","CODE",36
+"1993-05-03","CODE","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-03","CODE",37
+"1993-05-03","CODE","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Workload Volume/Stress","CODE","MAJOR","MED","1993-05-03","CODE",38
+"1993-05-03","CODE","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-03","CODE",39
+"1993-05-03","CODE","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","Workload Volume/Stress","CODE","MAJOR","MED","1993-05-03","CODE",40
+"1993-03-16","MLD","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","MLD","MAJOR","LOW","1993-03-16","PCMLD",41
+"1993-03-16","MLD","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","","MLD","MAJOR","LOW","1993-03-16","PCMLD",42
+"1993-03-18","MLD","Function","MISSING","New_Funct/Rewritten","Capability","","MLD","MAJOR","MED","1993-03-18","PCMLD",43
+"1993-03-18","MLD","Documents","MISSING","New_Funct/Rewritten","Documentation","","MLD","MAJOR","LOW","1993-03-18","PCMLD",44
+"1993-04-13","UT","Function","INCORRECT","","Usability","","CODE","MAJOR","LOW","1993-04-07","UTNI",45
+"1993-04-13","UT","Function","INCORRECT","","Standards","","CLD","MAJOR","MED","1993-04-07","UTNI",46
+"1993-04-13","UT","Function","INCORRECT","","Usability","Workload Volume/Stress","CODE","MAJOR","MED","1993-04-07","UTNI",47
+"1993-04-13","UT","Function","INCORRECT","","Usability","","CODE","MAJOR","LOW","1993-04-07","UTNI",48
+"1993-04-13","UT","Function","INCORRECT","","Reliability/Avail","","CODE","MAJOR","LOW","1993-04-07","UTNI",49
+"1993-05-04","UT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-04","UTNI",50
+"1993-05-04","UT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-04","UTNI",51
+"1993-05-04","UT","Interface","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-04","UTNI",52
+"1993-05-04","UT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-04","UTNI",53
+"1993-05-04","UT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-04","UTNI",54
+"1993-05-04","UT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-04","UTNI",55
+"1993-05-04","UT","Function","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","MLD","MAJOR","MED","1993-05-04","UTNI",56
+"1993-05-04","UT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-04","UTNI",57
+"1993-05-04","UT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","MED","1993-05-04","UTNI",58
+"1993-05-04","UT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-04","UTNI",59
+"1993-05-04","UT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","Workload Volume/Stress","MLD","MAJOR","LOW","1993-05-04","UTNI",60
+"1993-05-04","UT","Function","INCORRECT","","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-04","UTNI",61
+"1993-05-04","UT","Checking","MISSING","","Capability","Workload Volume/Stress","CODE","MAJOR","LOW","1993-05-04","UTNI",62
+"1993-03-01","CODE","Interface","INCORRECT","","Capability","","MLD","MAJOR","LOW","1993-03-01","CODE",63
+"1993-03-01","CODE","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","Recovery/Exception","CODE","MAJOR","LOW","1993-03-01","CODE",64
+"1993-02-16","MLD","Function","MISSING","","Reliability/Avail","Recovery/Exception","MLD","MAJOR","LOW","1993-02-16","PCMLD",65
+"1992-12-16","CLD","Documents","INCORRECT","","Capability","","CLD","MAJOR","LOW","1992-12-16","PCMLD",66
+"1992-12-16","CLD","Documents","INCORRECT","","Capability","","CLD","MAJOR","LOW","1992-12-16","PCMLD",67
+"1993-03-16","CODE","Algorithm","INCORRECT","New_Funct/Rewritten","Standards","","CODE","MAJOR","LOW","1993-03-16","CODE",68
+"1993-01-20","MLD","Function","INCORRECT","","Capability","","MLD","MAJOR","HIGH","1993-01-20","PCMLD",69
+"1993-01-20","MLD","Function","INCORRECT","","Capability","","MLD","MAJOR","LOW","1993-01-20","PCMLD",70
+"1993-03-31","MLD","Interface","MISSING","","Reliability/Avail","","CLD","MAJOR","LOW","1993-03-31","PCMLD",71
+"1993-03-31","MLD","Function","MISSING","","Usability","Design NonConformance","CLD","MAJOR","LOW","1993-03-31","PCMLD",72
+"1993-03-31","MLD","Algorithm","MISSING","","Reliability/Avail","","MLD","MAJOR","LOW","1993-03-31","PCMLD",73
+"1993-03-31","MLD","Checking","INCORRECT","","Reliability/Avail","Design NonConformance","MLD","MAJOR","LOW","1993-03-31","PCMLD",74
+"1993-03-31","MLD","Assignment/Initialization","MISSING","","Reliability/Avail","Design NonConformance","MLD","MAJOR","LOW","1993-03-31","PCMLD",75
+"1992-12-17","CLD","Function","MISSING","","Reliability/Avail","Design NonConformance","CLD","MAJOR","HIGH","1992-12-17","PCMLD",76
+"1993-02-19","PLD","Documents","INCORRECT","","Documentation","Recovery/Exception","PLD","MAJOR","LOW","1993-02-19","PCMLD",77
+"1993-02-19","PLD","Function","INCORRECT","","Integrity/Security","Documentation Content","PLD","MAJOR","LOW","1993-02-19","PCMLD",78
+"1993-02-19","PLD","Function","INCORRECT","","Reliability/Avail","","PLD","MAJOR","MED","1993-02-19","PCMLD",79
+"1992-11-02","PLD","Function","MISSING","","Usability","","PLD","MAJOR","HIGH","1992-11-02","PCMLD",80
+"1992-11-04","PLD","Function","MISSING","","Performance","","PLD","MAJOR","LOW","1992-11-04","PCMLD",81
+"1992-11-04","PLD","Function","MISSING","","Capability","","PLD","MAJOR","MED","1992-11-04","PCMLD",82
+"1992-11-04","PLD","Function","MISSING","","Reliability/Avail","","PLD","MAJOR","MED","1992-11-04","PCMLD",83
+"1992-11-12","PLD","Documents","MISSING","","Documentation","Design NonConformance","PLD","MAJOR","MED","1992-11-12","PCMLD",84
+"1992-11-12","PLD","Function","MISSING","","Migration","Design NonConformance","PLD","MAJOR","LOW","1992-11-12","PCMLD",85
+"1992-11-12","PLD","Function","MISSING","","Documentation","Logic Flow","PLD","MAJOR","LOW","1992-11-12","PCMLD",86
+"1992-11-12","PLD","Function","MISSING","","Maintain/Service","Logic Flow","PLD","MAJOR","LOW","1992-11-12","PCMLD",87
+"1992-11-12","PLD","Documents","INCORRECT","","Maintain/Service","Logic Flow","PLD","MAJOR","LOW","1992-11-12","PCMLD",88
+"1992-11-16","PLD","Function","INCORRECT","","Reliability/Avail","","PLD","MAJOR","HIGH","1992-11-16","PCMLD",89
+"1992-11-16","PLD","Assignment/Initialization","INCORRECT","","Usability","","PLD","MAJOR","LOW","1992-11-16","PCMLD",90
+"1992-11-16","PLD","Function","MISSING","","Performance","","PLD","MAJOR","LOW","1992-11-16","PCMLD",91
+"1992-11-16","PLD","Documents","MISSING","","Usability","","PLD","MAJOR","LOW","1992-11-16","PCMLD",92
+"1992-11-17","PLD","Function","MISSING","","Performance","","PLD","MAJOR","HIGH","1992-11-17","PCMLD",93
+"1992-11-17","PLD","Interface","MISSING","","Usability","","PLD","MAJOR","LOW","1992-11-17","PCMLD",94
+"1992-10-30","PLD","Interface","INCORRECT","","Reliability/Avail","","PLD","MAJOR","LOW","1992-10-30","PCMLD",95
+"1992-10-30","PLD","Documents","MISSING","","Usability","","PLD","MAJOR","LOW","1992-10-30","PCMLD",96
+"1992-10-30","PLD","Documents","MISSING","","Usability","","PLD","MAJOR","LOW","1992-10-30","PCMLD",97
+"1992-10-30","PLD","Documents","MISSING","","Usability","","PLD","MAJOR","MED","1992-10-30","PCMLD",98
+"1992-10-30","PLD","Documents","MISSING","","Usability","","PLD","MAJOR","MED","1992-10-30","PCMLD",99
+"1992-10-30","PLD","Documents","INCORRECT","","Usability","","PLD","MAJOR","LOW","1992-10-30","PCMLD",100
+"1993-02-01","CLD","Function","MISSING","","Reliability/Avail","Bkwd/Lateral Compatibility","PLD","MAJOR","MED","1993-02-01","PCMLD",101
+"1993-02-01","CLD","Timing/Serialization","MISSING","","Reliability/Avail","","PLD","MAJOR","LOW","1993-02-01","PCMLD",102
+"1993-02-01","CLD","Interface","INCORRECT","","Reliability/Avail","Design NonConformance","CLD","MAJOR","HIGH","1993-02-01","PCMLD",103
+"1993-02-01","CLD","Function","MISSING","","Maintain/Service","Recovery/Exception","CLD","MAJOR","HIGH","1993-02-01","PCMLD",104
+"1993-02-01","CLD","Function","MISSING","","Usability","","PLD","MAJOR","MED","1993-02-01","PCMLD",105
+"1993-03-22","MLD","Function","MISSING","","Capability","Design NonConformance","MLD","MAJOR","MED","1993-03-22","PCMLD",106
+"1993-03-22","MLD","Checking","INCORRECT","","Capability","Logic Flow","MLD","MAJOR","LOW","1993-03-22","PCMLD",107
+"1993-03-22","MLD","Function","MISSING","","Reliability/Avail","Logic Flow","MLD","MAJOR","LOW","1993-03-22","PCMLD",108
+"1993-03-22","MLD","Function","MISSING","","Migration","Bkwd/Lateral Compatibility","MLD","MAJOR","LOW","1993-03-22","PCMLD",109
+"1993-03-24","MLD","Function","INCORRECT","","Capability","Logic Flow","MLD","MAJOR","HIGH","1993-03-24","PCMLD",110
+"1993-03-24","MLD","Function","MISSING","","Reliability/Avail","Logic Flow","MLD","MAJOR","MED","1993-03-24","PCMLD",111
+"1993-03-24","MLD","Function","INCORRECT","","Capability","Design NonConformance","MLD","MAJOR","LOW","1993-03-24","PCMLD",112
+"1993-03-24","MLD","Function","MISSING","","Performance","Design NonConformance","PLD","MAJOR","MED","1993-03-24","PCMLD",113
+"1993-03-24","MLD","Function","MISSING","","Reliability/Avail","Design NonConformance","MLD","MAJOR","LOW","1993-03-24","PCMLD",114
+"1993-02-17","MLD","Function","MISSING","","Usability","","CLD","MAJOR","LOW","1993-02-17","PCMLD",115
+"1993-02-17","MLD","Function","INCORRECT","","Capability","","CLD","MAJOR","LOW","1993-02-17","PCMLD",116
+"1993-02-17","MLD","Function","INCORRECT","","Reliability/Avail","","CLD","MAJOR","LOW","1993-02-17","PCMLD",117
+"1993-02-17","MLD","Function","MISSING","","Reliability/Avail","","CLD","MAJOR","MED","1993-02-17","PCMLD",118
+"1993-02-17","MLD","Function","INCORRECT","","Reliability/Avail","","CLD","MAJOR","LOW","1993-02-17","PCMLD",119
+"1993-02-17","MLD","Function","MISSING","","Usability","","PLD","MAJOR","MED","1993-02-17","PCMLD",120
+"1993-02-17","MLD","Function","MISSING","","Usability","","CLD","MAJOR","MED","1993-02-17","PCMLD",121
+"1993-02-17","MLD","Function","MISSING","","Capability","","MLD","MAJOR","LOW","1993-02-17","PCMLD",122
+"1993-02-17","MLD","Algorithm","INCORRECT","","Capability","","CLD","MAJOR","LOW","1993-02-17","PCMLD",123
+"1993-02-18","MLD","Algorithm","MISSING","","Capability","","MLD","MAJOR","MED","1993-02-18","PCMLD",124
+"1993-02-18","MLD","Function","INCORRECT","","Reliability/Avail","","MLD","MAJOR","MED","1993-02-18","PCMLD",125
+"1993-02-18","MLD","Function","INCORRECT","","Reliability/Avail","","MLD","MAJOR","LOW","1993-02-18","PCMLD",126
+"1993-02-18","MLD","Function","INCORRECT","","Reliability/Avail","","MLD","MAJOR","LOW","1993-02-18","PCMLD",127
+"1993-02-18","MLD","Function","MISSING","","Capability","","MLD","MAJOR","LOW","1993-02-18","PCMLD",128
+"1993-02-18","MLD","Function","MISSING","","Capability","","MLD","MAJOR","LOW","1993-02-18","PCMLD",129
+"1993-02-18","MLD","Function","MISSING","","Reliability/Avail","","MLD","MAJOR","LOW","1993-02-18","PCMLD",130
+"1993-02-18","MLD","Function","INCORRECT","","Reliability/Avail","","MLD","MAJOR","LOW","1993-02-18","PCMLD",131
+"1993-02-18","MLD","Function","MISSING","","Capability","","MLD","MAJOR","LOW","1993-02-18","PCMLD",132
+"1993-04-02","CODE","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","MAJOR","LOW","1993-04-02","CODE",133
+"1993-04-02","CODE","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","MAJOR","LOW","1993-04-02","CODE",134
+"1993-04-02","CODE","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","MAJOR","LOW","1993-04-02","CODE",135
+"1992-11-22","UT","Algorithm","INCORRECT","New_Funct/Rewritten","Capability","","CODE","MAJOR","LOW","1992-11-22","UTNI",136
+"1992-12-01","FCT","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Installability","","CODE","1","","1992-12-10","BUILD",137
+"1992-12-03","FCT","Function","INCORRECT","New_Funct/Rewritten","Usability","","MLD","4","","1992-12-08","FUNCCOMP",138
+"1992-12-03","FCT","Function","MISSING","New_Funct/Rewritten","Integrity/Security","","PLD","3","","1992-12-04","FUNCCOMP",139
+"1992-12-03","FCT","Function","INCORRECT","New_Funct/Rewritten","Capability","","CLD","3","","1992-12-18","",140
+"1993-02-23","FCT","Function","INCORRECT","Prior_Release","Capability","","MLD","2","","1993-02-23","",141
+"1993-02-23","FCT","Function","","PTM/DCR_error","Capability","","","2","","1993-02-24","",142
+"1993-02-23","FCT","Function","INCORRECT","New_Funct/Rewritten","Usability","","CODE","3","","1993-02-23","",143
+"1993-02-23","FCT","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Installability","","CODE","3","","1993-04-01","",144
+"1993-03-22","FCT","Function","INCORRECT","New_Funct/Rewritten","Usability","","CODE","3","","1993-03-22","FUNCCOMP",145
+"1993-04-08","FCT","Interface","INCORRECT","New_Funct/Rewritten","Capability","","BASE","2","","1993-04-08","FUNCCOMP",146
+"1993-04-20","BLD","Build/Package/Merge","INCORRECT","","Installability","","CODE","2","","1993-04-20","BUILD",147
+"1993-04-22","BLD","Assignment/Initialization","INCORRECT","Prior_Release","Capability","","CODE","2","","1993-04-22","BUILD",148
+"1993-04-23","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1993-07-01","PCMLD",149
+"1993-04-23","BLD","Algorithm","INCORRECT","New_Funct/Rewritten","Capability","","CODE","1","","1993-04-23","BUILD",150
+"1993-04-23","BLD","Checking","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-04-23","BUILD",151
+"1993-05-03","ST","Function","MISSING","Prior_Release","Capability","","BASE","3","","1993-05-10","SYSTEM",152
+"1993-05-13","UT","Algorithm","INCORRECT","New_Funct/Rewritten","Capability","","MLD","2","","1993-05-19","UNIT",153
+"1993-05-13","UT","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-05-19","UNIT",154
+"1993-05-13","UT","Interface","INCORRECT","Prior_Release","Capability","","CODE","2","","1993-06-14","UNIT",155
+"1993-05-17","UT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","MLD","2","","1993-05-19","UNIT",156
+"1993-05-19","FCT","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-05-19","",157
+"1993-05-19","UT","Interface","","New_Funct/Rewritten","Capability","","CODE","2","","1993-05-19","UNIT",158
+"1993-05-20","UT","Assignment/Initialization","","New_Funct/Rewritten","Capability","","CODE","1","","1993-05-21","UNIT",159
+"1993-05-20","UT","Algorithm","","New_Funct/Rewritten","Capability","","CODE","3","","1993-05-21","UNIT",160
+"1993-05-24","UT","Assignment/Initialization","","New_Funct/Rewritten","Capability","","CODE","3","","1993-05-24","UNIT",161
+"1993-05-24","UT","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","MLD","3","","1993-05-24","UNIT",162
+"1993-05-24","UT","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","1","","1993-05-24","UNIT",163
+"1993-05-26","FCT","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1994-01-14","UNIT",164
+"1993-05-27","UT","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","2","","1993-09-29","",165
+"1993-06-02","BLD","Interface","INCORRECT","New_Funct/Rewritten","Capability","","PLD","1","","1993-06-03","BUILD",166
+"1993-06-02","BLD","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-06-02","BUILD",167
+"1993-06-02","UT","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Capability","","BASE","3","","1993-06-03","BUILD",168
+"1993-06-03","FCT","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-06-03","FUNCCOMP",169
+"1993-06-03","BLD","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","1","","1993-06-03","BUILD",170
+"1993-06-03","BLD","Documents","INCORRECT","New_Funct/Rewritten","Standards","","CODE","4","","1993-06-03","BUILD",171
+"1993-06-10","FCT","Build/Package/Merge","INCORRECT","Rollup/Parallel_Development","Capability","","CODE","1","","1993-06-11","UNIT",172
+"1993-06-11","FCT","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-06-28","FUNCCOMP",173
+"1993-06-14","BLD","Build/Package/Merge","INCORRECT","Rollup/Parallel_Development","Installability","","CODE","1","","1993-06-14","BUILD",174
+"1993-06-15","BLD","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-06-15","BUILD",175
+"1993-06-15","UT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","3","","1993-06-15","CODE",176
+"1993-06-16","FCT","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1993-06-18","FUNCCOMP",177
+"1993-06-16","FCT","Build/Package/Merge","MISSING","New_Funct/Rewritten","Usability","","CODE","1","","1993-06-16","FUNCCOMP",178
+"1993-06-16","UT","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-06-16","UNIT",179
+"1993-06-21","ST","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-06-29","",180
+"1993-06-23","FCT","Checking","MISSING","New_Funct/Rewritten","Capability","","CODE","4","","1994-01-31","FUNCCOMP",181
+"1993-06-23","FCT","Function","MISSING","New_Funct/Rewritten","Capability","","PLD","3","","1994-02-18","FUNCCOMP",182
+"1993-06-28","FCT","Function","INCORRECT","Prior_Release","Capability","","CODE","2","","1993-08-11","FUNCCOMP",183
+"1993-06-28","FCT","Algorithm","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-07-16","FUNCCOMP",184
+"1993-07-01","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","","CODE","3","","1993-07-19","FUNCCOMP",185
+"1993-07-02","FCT","Checking","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-11-10","FUNCCOMP",186
+"1993-07-15","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","","CODE","2","","1993-07-16","FUNCCOMP",187
+"1993-07-15","FCT","Checking","INCORRECT","New_Funct/Rewritten","Usability","","CODE","2","","1993-07-16","FUNCCOMP",188
+"1993-07-15","FCT","","INCORRECT","New_Funct/Rewritten","Usability","","CODE","3","","1993-08-13","FUNCCOMP",189
+"1993-07-20","UT","Function","MISSING","New_Funct/Rewritten","Capability","","OBJ","2","","1993-07-20","",190
+"1993-07-20","UT","Function","MISSING","New_Funct/Rewritten","Capability","","OBJ","2","","1993-07-20","UNIT",191
+"1993-07-21","UT","Timing/Serialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","MLD","2","","1993-07-21","CODE",192
+"1993-07-23","UT","Assignment/Initialization","INCORRECT","PTM/DCR_error","Capability","","CODE","2","","1993-07-26","UNIT",193
+"1993-07-23","FCT","Function","MISSING","Rollup/Parallel_Development","Reliability/Avail","","CODE","3","","1993-07-23","FUNCCOMP",194
+"1993-07-24","FCT","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Capability","","CODE","1","","1993-07-26","FUNCCOMP",195
+"1993-07-27","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-08-13","FUNCCOMP",196
+"1993-07-29","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","","","CODE","3","","1994-02-14","FUNCCOMP",197
+"1993-07-29","FCT","Build/Package/Merge","MISSING","Rollup/Parallel_Development","Capability","","CODE","2","","1993-07-29","FUNCCOMP",198
+"1993-07-29","UT","Function","INCORRECT","New_Funct/Rewritten","Usability","","CODE","2","","1994-01-24","FUNCCOMP",199
+"1993-07-30","FCT","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","2","","1993-08-04","FUNCCOMP",200
+"1993-08-02","ST","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","MLD","3","","1993-08-02","SYSTEM",201
+"1993-08-02","FCT","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-08-03","FUNCCOMP",202
+"1993-08-04","UT","Function","MISSING","New_Funct/Rewritten","Capability","","OBJ","2","","1993-08-04","UNIT",203
+"1993-08-04","FCT","Build/Package/Merge","INCORRECT","Rollup/Parallel_Development","Capability","","CODE","2","","1993-08-04","FUNCCOMP",204
+"1993-08-04","FCT","Function","INCORRECT","New_Funct/Rewritten","Usability","","CODE","3","","1994-01-23","FUNCCOMP",205
+"1993-08-04","FCT","Interface","INCORRECT","New_Funct/Rewritten","Usability","","MLD","3","","1994-03-10","FUNCCOMP",206
+"1993-08-05","FCT","Interface","INCORRECT","New_Funct/Rewritten","Capability","","MLD","2","","1993-09-27","FUNCCOMP",207
+"1993-08-10","FCT","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","2","","1993-09-08","SYSTEM",208
+"1993-08-10","FCT","Checking","INCORRECT","New_Funct/Rewritten","Usability","","MLD","3","","1993-08-12","FUNCCOMP",209
+"1993-08-13","FCT","","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-08-13","FUNCCOMP",210
+"1993-08-19","FCT","Checking","MISSING","New_Funct/Rewritten","Usability","","MLD","4","","1993-08-24","FUNCCOMP",211
+"1993-08-23","FCT","Interface","INCORRECT","New_Funct/Rewritten","Maintain/Service","","CODE","3","","1993-09-27","FUNCCOMP",212
+"1993-08-25","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","MLD","4","","1993-11-10","",213
+"1993-08-26","BLD","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Installability","","CODE","3","","1993-08-26","BUILD",214
+"1993-08-27","BLD","Build/Package/Merge","INCORRECT","Vendor/Imported","Installability","","CODE","1","","1993-08-27","BUILD",215
+"1993-08-28","BLD","Assignment/Initialization","MISSING","Vendor/Imported","Capability","","CODE","3","","1993-08-30","UNIT",216
+"1993-08-28","FCT","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-08-28","CODE",217
+"1993-08-30","BLD","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-08-30","BUILD",218
+"1993-08-31","UT","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1993-08-31","UNIT",219
+"1993-08-31","BLD","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-08-31","BUILD",220
+"1993-08-31","BLD","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-08-31","BUILD",221
+"1993-08-31","UT","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-08-31","UNIT",222
+"1993-09-01","BLD","Build/Package/Merge","INCORRECT","Vendor/Imported","Reliability/Avail","","CODE","1","","1993-09-01","BUILD",223
+"1993-09-01","FCT","Checking","INCORRECT","Vendor/Imported","Capability","","CODE","2","","1993-09-02","FUNCCOMP",224
+"1993-09-02","FCT","Interface","INCORRECT","Vendor/Imported","Usability","","CODE","2","","1993-09-02","FUNCCOMP",225
+"1993-09-02","ST","Timing/Serialization","MISSING","New_Funct/Rewritten","Usability","","CLD","2","","1993-11-17","SYSTEM",226
+"1993-09-02","BLD","Algorithm","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","1","","1993-09-03","FUNCCOMP",227
+"1993-09-06","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1994-02-14","FUNCCOMP",228
+"1993-09-07","FCT","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1993-09-07","UNIT",229
+"1993-09-07","FCT","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1993-09-08","UNIT",230
+"1993-09-07","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","1","","1993-09-08","",231
+"1993-09-09","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Maintain/Service","","CODE","2","","1993-09-09","UNIT",232
+"1993-09-09","FCT","Checking","INCORRECT","New_Funct/Rewritten","Performance","","CODE","3","","1993-09-21","UNIT",233
+"1993-09-20","UT","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","4","","1993-10-21","UNIT",234
+"1993-09-21","FCT","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","PLD","2","","1993-09-23","FUNCCOMP",235
+"1993-09-21","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","1","","1993-09-22","FUNCCOMP",236
+"1993-09-22","FCT","Interface","INCORRECT","New_Funct/Rewritten","Integrity/Security","","CLD","2","","1993-11-11","FUNCCOMP",237
+"1993-09-22","FCT","Checking","INCORRECT","New_Funct/Rewritten","Usability","","CLD","3","","1994-01-03","UNIT",238
+"1993-09-23","FCT","Function","MISSING","New_Funct/Rewritten","Usability","","MLD","3","","1993-09-27","UNIT",239
+"1993-09-23","FCT","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","2","","1993-11-10","FUNCCOMP",240
+"1993-10-01","FCT","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1994-01-19","UNIT",241
+"1993-10-04","BLD","Build/Package/Merge","INCORRECT","","Reliability/Avail","","CODE","3","","1993-10-04","BUILD",242
+"1993-10-04","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1993-10-18","FUNCCOMP",243
+"1993-10-04","FCT","Function","MISSING","New_Funct/Rewritten","Maintain/Service","","CODE","3","","1994-01-03","FUNCCOMP",244
+"1993-10-04","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Maintain/Service","","CLD","3","","1994-01-03","FUNCCOMP",245
+"1993-10-06","FCT","Interface","INCORRECT","New_Funct/Rewritten","Usability","","CLD","3","","1993-11-11","FUNCCOMP",246
+"1993-10-06","BLD","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Installability","","CODE","1","","1993-10-06","BUILD",247
+"1993-10-06","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1994-01-03","FUNCCOMP",248
+"1993-10-07","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1993-11-17","FUNCCOMP",249
+"1993-10-08","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1994-01-03","FUNCCOMP",250
+"1993-10-08","FCT","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1994-01-21","FUNCCOMP",251
+"1993-10-09","BLD","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1993-10-11","FUNCCOMP",252
+"1993-10-12","BLD","Documents","MISSING","Prior_Release","Documentation","","CODE","4","","1993-10-12","BUILD",253
+"1993-10-12","FCT","Interface","INCORRECT","New_Funct/Rewritten","Maintain/Service","","CODE","4","","1994-01-03","FUNCCOMP",254
+"1993-10-14","FCT","","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1993-11-11","FUNCCOMP",255
+"1993-10-14","FCT","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1993-11-17","FUNCCOMP",256
+"1993-10-15","FCT","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-10-27","FUNCCOMP",257
+"1993-10-17","FCT","Interface","MISSING","New_Funct/Rewritten","Capability","","CODE","3","","1993-11-19","FUNCCOMP",258
+"1993-10-19","FCT","Interface","INCORRECT","New_Funct/Rewritten","Usability","","CLD","4","","1993-11-12","FUNCCOMP",259
+"1993-10-21","FCT","Interface","MISSING","New_Funct/Rewritten","Capability","","CODE","3","","1993-11-29","CODE",260
+"1993-10-21","FCT","","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-11-18","FUNCCOMP",261
+"1993-10-25","UT","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1994-01-20","UNIT",262
+"1993-10-26","UT","Function","MISSING","New_Funct/Rewritten","Capability","","PLD","3","","1993-10-26","UNIT",263
+"1993-10-26","FCT","Checking","INCORRECT","New_Funct/Rewritten","Maintain/Service","","MLD","4","","1993-11-10","FUNCCOMP",264
+"1993-10-26","ST","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-10-29","SYSTEM",265
+"1993-10-27","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","4","","1993-10-27","UNIT",266
+"1993-10-27","UT","Build/Package/Merge","INCORRECT","Rollup/Parallel_Development","Reliability/Avail","","CODE","4","","1993-10-27","UNIT",267
+"1993-10-27","FCT","Checking","MISSING","New_Funct/Rewritten","Maintain/Service","","CODE","3","","1994-01-13","FUNCCOMP",268
+"1993-10-27","ST","Checking","INCORRECT","New_Funct/Rewritten","Usability","","CODE","3","","1993-11-30","SYSTEM",269
+"1993-10-28","FCT","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1993-10-29","FUNCCOMP",270
+"1993-10-29","ST","Function","MISSING","New_Funct/Rewritten","Maintain/Service","","CLD","4","","1994-01-15","SYSTEM",271
+"1993-11-01","FCT","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Capability","","MLD","2","","1993-11-01","",272
+"1993-11-01","FCT","Checking","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-12-02","FUNCCOMP",273
+"1993-11-04","FCT","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1993-11-24","FUNCCOMP",274
+"1993-11-05","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Integrity/Security","","CODE","2","","1994-01-11","FUNCCOMP",275
+"1993-11-05","FCT","Checking","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-11-19","FUNCCOMP",276
+"1993-11-09","FCT","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1994-02-28","FUNCCOMP",277
+"1993-11-09","BLD","Build/Package/Merge","INCORRECT","Rollup/Parallel_Development","Installability","","BASE","3","","1994-01-20","BUILD",278
+"1993-11-09","UT","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1993-11-09","CODE",279
+"1993-11-11","ST","Interface","INCORRECT","New_Funct/Rewritten","Maintain/Service","","CODE","3","","1993-11-18","SYSTEM",280
+"1993-11-12","BLD","Build/Package/Merge","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","4","","1993-11-12","BUILD",281
+"1993-11-15","ST","Timing/Serialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1993-12-09","FUNCCOMP",282
+"1993-11-16","FCT","Interface","INCORRECT","Prior_Release","Reliability/Avail","","BASE","3","","1994-03-02","FUNCCOMP",283
+"1993-11-18","FCT","","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1993-11-19","FUNCCOMP",284
+"1993-11-18","GA","Function","INCORRECT","Prior_Release","Capability","","OBJ","4","","1994-03-22","OTHER",285
+"1993-11-18","UT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1993-11-19","UNIT",286
+"1993-11-19","FCT","","INCORRECT","New_Funct/Rewritten","Usability","","CODE","4","","1994-01-11","UNIT",287
+"1993-11-19","FCT","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","4","","1993-11-19","FUNCCOMP",288
+"1993-11-19","FCT","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1994-01-03","FUNCCOMP",289
+"1993-11-22","FCT","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Standards","","CODE","3","","1994-01-05","",290
+"1993-11-23","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Maintain/Service","","MLD","3","","1993-11-23","FUNCCOMP",291
+"1993-11-30","ST","Timing/Serialization","INCORRECT","PTM/DCR_error","Maintain/Service","","CODE","4","","1993-12-14","FUNCCOMP",292
+"1993-11-30","FCT","Build/Package/Merge","MISSING","Rollup/Parallel_Development","Capability","","CODE","2","","1993-11-30","BUILD",293
+"1993-11-30","ST","Function","MISSING","New_Funct/Rewritten","Capability","","OBJ","3","","1993-12-06","",294
+"1993-12-02","UT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1993-12-07","CODE",295
+"1993-12-04","FCT","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","MLD","2","","1993-12-08","FUNCCOMP",296
+"1993-12-06","FCT","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1994-01-19","FUNCCOMP",297
+"1993-12-06","FCT","","INCORRECT","Rollup/Parallel_Development","Capability","","CODE","3","","1993-12-09","FUNCCOMP",298
+"1993-12-06","BLD","Build/Package/Merge","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1993-12-07","BUILD",299
+"1993-12-07","FCT","Assignment/Initialization","INCORRECT","Rollup/Parallel_Development","Capability","","CODE","3","","1993-12-09","",300
+"1993-12-07","UT","","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1993-12-07","UNIT",301
+"1993-12-07","FCT","Interface","INCORRECT","Rollup/Parallel_Development","Reliability/Avail","","CODE","2","","1993-12-08","FUNCCOMP",302
+"1993-12-08","FCT","Function","INCORRECT","New_Funct/Rewritten","Usability","","PLD","4","","1993-12-13","FUNCCOMP",303
+"1993-12-08","ST","Build/Package/Merge","INCORRECT","Rollup/Parallel_Development","Capability","","CODE","2","","1993-12-08","FLDEIO",304
+"1993-12-09","UT","Build/Package/Merge","MISSING","New_Funct/Rewritten","Capability","","CODE","3","","1994-01-03","CODE",305
+"1993-12-09","FCT","Timing/Serialization","INCORRECT","Prior_Release","Capability","Test Coverage/Variation","BASE","3","","1994-02-28","UNIT",306
+"1993-12-09","FCT","Checking","MISSING","New_Funct/Rewritten","Performance","","CLD","4","","1994-01-03","FUNCCOMP",307
+"1993-12-09","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Standards","","CODE","3","","1993-12-13","FUNCCOMP",308
+"1993-12-10","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-12-13","BUILD",309
+"1993-12-13","FCT","Checking","INCORRECT","New_Funct/Rewritten","Usability","","CODE","4","","1993-12-14","FUNCCOMP",310
+"1993-12-13","UT","Function","MISSING","New_Funct/Rewritten","Capability","","PLD","3","","1993-12-22","UNIT",311
+"1993-12-13","FCT","","INCORRECT","New_Funct/Rewritten","Usability","","CODE","4","","1994-01-20","FUNCCOMP",312
+"1993-12-13","FCT","Documents","INCORRECT","New_Funct/Rewritten","Capability","","CODE","4","","1994-01-20","FUNCCOMP",313
+"1993-12-13","ST","Function","INCORRECT","New_Funct/Rewritten","Usability","","CODE","4","","1994-01-31","FUNCCOMP",314
+"1993-12-14","FCT","Function","INCORRECT","New_Funct/Rewritten","Usability","","CODE","2","","1993-12-14","FUNCCOMP",315
+"1993-12-17","UT","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1993-12-22","UNIT",316
+"1993-12-22","UT","Function","INCORRECT","Reused_Code","Capability","","CLD","3","","1994-01-03","UNIT",317
+"1994-01-13","ST","Build/Package/Merge","INCORRECT","Rollup/Parallel_Development","Installability","","CODE","3","","1994-01-13","",318
+"1993-12-22","ST","Assignment/Initialization","INCORRECT","Prior_Release","Reliability/Avail","","BASE","2","","1994-01-07","",319
+"1993-12-22","ST","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1994-01-14","SYSTEM",320
+"1993-12-23","FCT","Checking","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1994-01-24","FUNCCOMP",321
+"1993-12-29","FCT","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1994-03-11","FUNCCOMP",322
+"1993-12-30","FCT","Checking","INCORRECT","New_Funct/Rewritten","Capability","","CODE","4","","1994-01-13","FUNCCOMP",323
+"1994-01-03","ST","Build/Package/Merge","INCORRECT","Prior_Release","Installability","","BASE","2","","1994-03-23","OTHER",324
+"1994-01-03","FCT","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1994-01-07","FUNCCOMP",325
+"1994-01-05","FCT","Checking","MISSING","New_Funct/Rewritten","Maintain/Service","","CODE","4","","1994-03-24","FUNCCOMP",326
+"1994-01-05","FCT","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1994-01-22","FUNCCOMP",327
+"1994-01-05","FCT","Build/Package/Merge","INCORRECT","Prior_Release","Capability","","BASE","2","","1994-01-18","FUNCCOMP",328
+"1994-01-05","FCT","Interface","INCORRECT","New_Funct/Rewritten","Usability","","CODE","4","","1994-01-06","FUNCCOMP",329
+"1994-01-05","FCT","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1994-01-14","FUNCCOMP",330
+"1994-01-05","FCT","Interface","INCORRECT","New_Funct/Rewritten","Usability","","CODE","4","","1994-01-06","FUNCCOMP",331
+"1994-01-05","FCT","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1994-01-24","FUNCCOMP",332
+"1994-01-05","GA","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1994-03-15","FUNCCOMP",333
+"1994-01-06","FCT","Build/Package/Merge","INCORRECT","New_Funct/Rewritten","Installability","","CODE","2","","1994-01-11","BUILD",334
+"1994-01-06","FCT","Documents","INCORRECT","Prior_Release","Usability","","CODE","4","","1994-01-11","FUNCCOMP",335
+"1994-01-06","BLD","Build/Package/Merge","MISSING","Prior_Release","Installability","","BASE","2","","1994-01-13","BUILD",336
+"1994-01-10","ST","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1994-01-13","FLDEIO",337
+"1994-01-10","BLD","Build/Package/Merge","INCORRECT","Prior_Release","Installability","","BASE","2","","1994-01-13","BUILD",338
+"1994-01-10","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","3","","1994-01-17","FUNCCOMP",339
+"1994-01-11","FCT","Checking","MISSING","New_Funct/Rewritten","Maintain/Service","","CODE","3","","1994-01-20","FUNCCOMP",340
+"1994-01-12","ST","Documents","INCORRECT","New_Funct/Rewritten","Standards","","CODE","4","","1994-01-23","BUILD",341
+"1994-01-12","UT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","","CODE","3","","1994-01-20","UNIT",342
+"1994-01-13","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","MLD","3","","1994-01-21","CODE",343
+"1994-01-13","FCT","Interface","INCORRECT","Reused_Code","Reliability/Avail","","CODE","3","","1994-01-20","FUNCCOMP",344
+"1994-01-14","FCT","Interface","INCORRECT","New_Funct/Rewritten","Usability","","MLD","3","","1994-03-10","FUNCCOMP",345
+"1994-01-14","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","3","","1994-01-20","FUNCCOMP",346
+"1994-01-17","FCT","","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","MLD","2","","1994-01-20","FUNCCOMP",347
+"1994-01-17","FCT","Timing/Serialization","INCORRECT","PTM/DCR_error","Reliability/Avail","","CODE","2","","1994-01-21","UNIT",348
+"1994-01-18","FCT","Checking","MISSING","New_Funct/Rewritten","Capability","","CODE","4","","1994-01-18","FUNCCOMP",349
+"1994-01-18","FCT","Timing/Serialization","INCORRECT","PTM/DCR_error","Reliability/Avail","","CODE","3","","1994-01-21","FUNCCOMP",350
+"1994-01-19","GA","Checking","MISSING","Prior_Release","Capability","","BASE","4","","1994-03-23","OTHER",351
+"1994-01-20","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","2","","1994-01-20","FUNCCOMP",352
+"1994-01-21","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","2","","1994-01-21","FUNCCOMP",353
+"1994-01-24","FCT","Documents","INCORRECT","New_Funct/Rewritten","Documentation","","CODE","3","","1994-03-17","OTHER",354
+"1994-01-24","BLD","Build/Package/Merge","INCORRECT","Rollup/Parallel_Development","Reliability/Avail","","OBJ","3","","1994-01-24","OTHER",355
+"1994-01-24","ST","Build/Package/Merge","INCORRECT","Prior_Release","Standards","","CODE","3","","1994-01-24","BUILD",356
+"1994-01-24","BLD","Build/Package/Merge","INCORRECT","Rollup/Parallel_Development","Installability","","CODE","2","","1994-01-24","BUILD",357
+"1994-01-26","BLD","Build/Package/Merge","INCORRECT","Reused_Code","Integrity/Security","","CLD","1","","1994-01-26","BUILD",358
+"1994-01-26","FCT","Checking","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1994-02-14","CODE",359
+"1994-01-31","GA","Function","MISSING","New_Funct/Rewritten","Capability","","CODE","3","","1994-03-17","FUNCCOMP",360
+"1994-01-31","FCT","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1994-03-11","FUNCCOMP",361
+"1994-02-01","FCT","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1994-02-25","FUNCCOMP",362
+"1994-02-01","FCT","Function","INCORRECT","New_Funct/Rewritten","Usability","","BASE","3","","1994-03-10","FUNCCOMP",363
+"1994-02-02","FCT","Interface","INCORRECT","New_Funct/Rewritten","Documentation","","PLD","4","","1994-02-18","OTHER",364
+"1994-02-03","FCT","Checking","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1994-02-10","FUNCCOMP",365
+"1994-02-04","GA","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","3","","1994-03-15","FUNCCOMP",366
+"1994-02-07","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","3","","1994-03-02","FUNCCOMP",367
+"1994-02-08","FCT","Interface","INCORRECT","PTM/DCR_error","Reliability/Avail","","CODE","2","","1994-02-21","FUNCCOMP",368
+"1994-02-10","FCT","Checking","INCORRECT","New_Funct/Rewritten","Capability","","CODE","3","","1994-03-24","FUNCCOMP",369
+"1994-02-11","UT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1994-03-04","UNIT",370
+"1994-02-12","ST","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Performance","","CLD","2","","1994-03-14","SYSTEM",371
+"1994-02-16","UT","","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Test Coverage/Variation","CODE","4","","1994-02-17","FUNCCOMP",372
+"1994-02-14","UT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Usability","","CODE","3","","1994-03-04","FUNCCOMP",373
+"1994-02-14","UT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Usability","","CODE","3","","1994-02-21","FUNCCOMP",374
+"1994-02-14","UT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","Test Coverage/Variation","CODE","3","","1994-02-15","FUNCCOMP",375
+"1994-03-08","FCT","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Rare Situation/Side Effects","CODE","3","","1994-03-09","FUNCCOMP",376
+"1994-02-14","FCT","Assignment/Initialization","MISSING","Prior_Release","Usability","Test Coverage/Variation","CODE","3","","1994-03-11","FUNCCOMP",377
+"1994-02-17","GA","Interface","INCORRECT","New_Funct/Rewritten","Usability","Test Sequencing/Interaction","CODE","4","","1994-03-03","OTHER",378
+"1994-02-18","UT","Interface","INCORRECT","New_Funct/Rewritten","Usability","Test Coverage/Variation","PLD","3","","1994-02-25","FUNCCOMP",379
+"1994-02-18","UT","","INCORRECT","New_Funct/Rewritten","Usability","Test Coverage/Variation","MLD","3","","1994-03-01","FUNCCOMP",380
+"1994-02-23","GA","Build/Package/Merge","MISSING","New_Funct/Rewritten","Documentation","Startup/Restart","CODE","3","","1994-03-03","OTHER",381
+"1994-02-25","FCT","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1994-03-08","FUNCCOMP",382
+"1994-02-28","FCT","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","2","","1994-03-04","OTHER",383
+"1994-02-28","UT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Usability","Test Coverage/Variation","MLD","3","","1994-03-01","FUNCCOMP",384
+"1994-03-18","FCT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Maintain/Service","Test Coverage/Variation","CODE","4","","1994-03-28","FUNCCOMP",385
+"1994-03-02","FCT","Checking","INCORRECT","New_Funct/Rewritten","Capability","Test Coverage/Variation","CODE","3","","1994-03-11","FUNCCOMP",386
+"1994-03-07","UT","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","3","","1994-03-14","FUNCCOMP",387
+"1994-03-07","UT","","INCORRECT","New_Funct/Rewritten","Usability","Test Coverage/Variation","MLD","3","","1994-03-09","FUNCCOMP",388
+"1994-03-10","FCT","Interface","INCORRECT","New_Funct/Rewritten","Maintain/Service","","MLD","4","","1994-03-24","FUNCCOMP",389
+"1994-03-14","ST","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Performance","Recovery/Exception","CLD","2","","1994-03-15","SYSTEM",390
+"1994-03-15","FCT","Interface","INCORRECT","New_Funct/Rewritten","Maintain/Service","","CODE","4","","1994-03-16","FUNCCOMP",391
+"1994-03-16","ST","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Concurrency","CLD","3","","1994-03-16","FLDEIO",392
+"1994-03-17","GA","Function","INCORRECT","Prior_Release","Capability","Test Coverage/Variation","BASE","3","","1994-03-17","UNIT",393
+"1994-03-21","FCT","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","3","","1994-03-25","FUNCCOMP",394
+"1992-11-17","OBJ","Function","MISSING","","Usability","Design NonConformance","OBJ","MAJOR","MED","1992-11-17","PCMLD",395
+"1993-05-04","CODE","Checking","INCORRECT","New_Funct/Rewritten","Usability","","CODE","MAJOR","MED","1993-05-04","CODE",396
+"1993-05-04","CODE","Checking","INCORRECT","New_Funct/Rewritten","Usability","","CODE","MAJOR","MED","1993-05-04","CODE",397
+"1993-05-04","CODE","Assignment/Initialization","MISSING","New_Funct/Rewritten","Usability","","CODE","MAJOR","LOW","1993-05-04","CODE",398
+"1993-04-30","MLD","Assignment/Initialization","INCORRECT","Rollup/Parallel_Development","Usability","","CODE","MAJOR","LOW","1993-04-30","PCMLD",399
+"1993-04-30","MLD","Function","MISSING","Rollup/Parallel_Development","Documentation","","MLD","MAJOR","LOW","1993-04-30","PCMLD",400

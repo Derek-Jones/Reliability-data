@@ -1,0 +1,379 @@
+Open_Date,Defect_Type,Missing_Incorrect,Defect_Source,Defect_Impact,Defect_Trigger,Phase_Found,Defect_Location,Sequence
+"1992-10-30","Function","INCORRECT","","Reliability/Avail","Design NonConformance","MLD","MLD",1
+"1992-10-30","Function","INCORRECT","","Reliability/Avail","Design NonConformance","MLD","MLD",2
+"1992-10-30","Function","MISSING","","Capability","Design NonConformance","MLD","MLD",3
+"1993-02-01","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","CLD",4
+"1993-02-01","Interface","MISSING","New_Funct/Rewritten","Capability","","CLD","CLD",5
+"1993-02-01","Function","INCORRECT","New_Funct/Rewritten","Capability","","CLD","CLD",6
+"1993-02-01","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","CLD",7
+"1993-02-01","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","CLD",8
+"1993-02-03","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","CLD",9
+"1993-02-03","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","CLD",10
+"1993-03-03","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","CLD",11
+"1993-03-03","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","CLD",12
+"1993-03-03","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","","CLD","CLD",13
+"1993-03-23","Checking","MISSING","New_Funct/Rewritten","Capability","Design NonConformance","CODE","CODE",14
+"1993-03-18","Checking","INCORRECT","New_Funct/Rewritten","Capability","Design NonConformance","CODE","CODE",15
+"1993-03-18","Interface","INCORRECT","","Capability","Design NonConformance","CODE","CODE",16
+"1993-03-18","Checking","MISSING","New_Funct/Rewritten","Capability","Design NonConformance","CODE","CODE",17
+"1993-03-18","Assignment/Initialization","MISSING","New_Funct/Rewritten","Maintain/Service","Design NonConformance","CODE","CODE",18
+"1993-03-31","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Logic Flow","CODE","CODE",19
+"1993-03-31","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","Rare Situation/Side Effects","CODE","MLD",20
+"1993-05-12","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",21
+"1993-05-12","Interface","INCORRECT","New_Funct/Rewritten","Maintain/Service","Design NonConformance","CODE","CODE",22
+"1993-05-12","Algorithm","INCORRECT","New_Funct/Rewritten","Maintain/Service","Rare Situation/Side Effects","CODE","CODE",23
+"1993-05-12","Checking","MISSING","New_Funct/Rewritten","Maintain/Service","Logic Flow","CODE","CODE",24
+"1993-05-12","Algorithm","INCORRECT","New_Funct/Rewritten","Maintain/Service","Logic Flow","CODE","CODE",25
+"1993-04-01","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","Rare Situation/Side Effects","CODE","CODE",26
+"1993-03-26","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",27
+"1993-03-26","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",28
+"1993-03-26","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",29
+"1993-03-26","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",30
+"1993-03-26","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",31
+"1993-03-26","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",32
+"1993-03-26","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",33
+"1993-03-26","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",34
+"1993-03-26","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",35
+"1993-03-26","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",36
+"1993-03-31","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",37
+"1993-03-31","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",38
+"1993-03-31","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",39
+"1993-03-31","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",40
+"1993-03-31","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",41
+"1993-05-10","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",42
+"1993-05-10","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",43
+"1993-05-10","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",44
+"1992-11-24","Function","INCORRECT","New_Funct/Rewritten","Usability","","CODE","CODE",45
+"1992-11-24","Function","INCORRECT","New_Funct/Rewritten","Usability","","CODE","CODE",46
+"1992-11-24","Function","MISSING","New_Funct/Rewritten","Usability","","CODE","CODE",47
+"1992-11-23","Function","MISSING","New_Funct/Rewritten","Capability","","CODE","CODE",48
+"1992-11-23","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","MLD",49
+"1992-11-23","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","MLD",50
+"1992-11-23","Timing/Serialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","MLD",51
+"1992-11-23","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Concurrency","CODE","MLD",52
+"1992-11-23","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","CODE",53
+"1992-11-23","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","CODE",54
+"1992-11-23","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","MLD",55
+"1992-11-23","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Concurrency","CODE","CODE",56
+"1992-11-23","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","MLD",57
+"1992-12-01","Interface","INCORRECT","","Usability","Design NonConformance","CODE","CODE",58
+"1993-03-12","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",59
+"1993-03-15","Function","MISSING","New_Funct/Rewritten","Maintain/Service","Design NonConformance","CODE","CODE",60
+"1993-03-15","Function","MISSING","New_Funct/Rewritten","Maintain/Service","Design NonConformance","CODE","CODE",61
+"1993-03-15","Checking","INCORRECT","New_Funct/Rewritten","Capability","Design NonConformance","CODE","CODE",62
+"1993-03-15","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",63
+"1993-03-15","Function","MISSING","New_Funct/Rewritten","Maintain/Service","Design NonConformance","CODE","CODE",64
+"1993-03-15","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",65
+"1993-03-15","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",66
+"1993-03-15","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",67
+"1993-03-15","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",68
+"1993-03-15","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",69
+"1993-03-15","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",70
+"1993-03-16","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Test Coverage/Variation","CODE","CODE",71
+"1993-03-16","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",72
+"1993-03-16","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","CODE",73
+"1993-03-16","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","CODE",74
+"1993-03-16","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","CODE",75
+"1993-03-16","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","Test Coverage/Variation","CODE","CODE",76
+"1993-03-19","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",77
+"1993-03-22","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","CODE","CODE",78
+"1993-03-22","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","CODE",79
+"1993-03-22","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","Test Coverage/Variation","CODE","MLD",80
+"1993-03-22","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Test Coverage/Variation","CODE","MLD",81
+"1993-03-22","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",82
+"1993-03-22","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",83
+"1993-03-24","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",84
+"1993-03-24","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",85
+"1993-03-24","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",86
+"1993-03-24","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",87
+"1993-03-24","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",88
+"1993-03-24","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",89
+"1993-03-24","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",90
+"1993-03-24","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",91
+"1993-03-24","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",92
+"1993-03-24","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",93
+"1993-03-24","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",94
+"1993-03-24","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",95
+"1993-03-24","Function","MISSING","New_Funct/Rewritten","Standards","","CODE","CODE",96
+"1993-03-24","Timing/Serialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",97
+"1993-03-26","Function","MISSING","New_Funct/Rewritten","Standards","","CODE","CODE",98
+"1993-03-26","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",99
+"1993-03-26","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",100
+"1993-03-26","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",101
+"1993-03-26","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",102
+"1993-03-26","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",103
+"1993-03-26","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",104
+"1993-03-26","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",105
+"1993-03-26","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",106
+"1993-03-26","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",107
+"1993-03-26","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",108
+"1993-03-26","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",109
+"1993-03-26","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",110
+"1993-03-26","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",111
+"1993-03-26","Function","INCORRECT","New_Funct/Rewritten","Standards","","CODE","CODE",112
+"1993-03-26","Assignment/Initialization","MISSING","New_Funct/Rewritten","Standards","","CODE","CODE",113
+"1993-03-26","Checking","MISSING","New_Funct/Rewritten","Standards","","CODE","CODE",114
+"1993-03-26","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",115
+"1993-03-26","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",116
+"1993-03-26","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",117
+"1993-03-29","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","CODE",118
+"1993-03-29","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","CODE",119
+"1993-03-29","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","CODE",120
+"1993-03-29","Function","INCORRECT","New_Funct/Rewritten","Capability","Test Coverage/Variation","CODE","MLD",121
+"1993-03-29","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",122
+"1993-03-29","Function","MISSING","New_Funct/Rewritten","Capability","Test Coverage/Variation","CODE","CODE",123
+"1993-03-29","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Test Coverage/Variation","CODE","CODE",124
+"1993-03-29","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","CODE",125
+"1993-03-29","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Test Coverage/Variation","CODE","CODE",126
+"1993-03-31","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",127
+"1993-03-31","Function","MISSING","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",128
+"1993-03-31","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","","CODE","CODE",129
+"1993-04-01","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",130
+"1993-04-01","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",131
+"1993-04-01","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",132
+"1993-04-01","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",133
+"1993-04-01","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",134
+"1993-04-01","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",135
+"1993-04-01","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",136
+"1993-04-02","Function","INCORRECT","New_Funct/Rewritten","Capability","","CODE","CODE",137
+"1993-04-02","Interface","INCORRECT","New_Funct/Rewritten","Capability","","CODE","CODE",138
+"1993-04-03","Assignment/Initialization","MISSING","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",139
+"1993-04-03","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",140
+"1993-04-03","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",141
+"1993-04-03","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",142
+"1993-04-03","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",143
+"1993-04-03","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",144
+"1993-04-03","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",145
+"1993-04-03","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",146
+"1993-04-03","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",147
+"1993-04-03","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",148
+"1993-04-03","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",149
+"1993-04-03","Timing/Serialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",150
+"1993-04-03","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",151
+"1993-04-06","Function","INCORRECT","New_Funct/Rewritten","Capability","Test Coverage/Variation","CODE","CODE",152
+"1993-04-06","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Test Coverage/Variation","CODE","CODE",153
+"1993-04-06","Function","INCORRECT","New_Funct/Rewritten","Capability","Test Coverage/Variation","CODE","CODE",154
+"1993-04-06","Function","MISSING","New_Funct/Rewritten","Maintain/Service","Design NonConformance","CODE","CODE",155
+"1993-05-07","Function","MISSING","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",156
+"1993-05-07","Checking","INCORRECT","New_Funct/Rewritten","Capability","Design NonConformance","CODE","CODE",157
+"1993-05-07","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",158
+"1993-05-07","Checking","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",159
+"1993-05-07","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",160
+"1993-05-07","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",161
+"1993-05-07","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",162
+"1993-05-12","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",163
+"1993-05-12","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",164
+"1993-05-12","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",165
+"1993-05-12","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",166
+"1993-05-12","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",167
+"1993-05-12","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",168
+"1993-05-12","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",169
+"1993-05-12","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",170
+"1993-05-14","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",171
+"1993-05-14","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",172
+"1993-05-14","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",173
+"1993-05-14","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",174
+"1993-05-14","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",175
+"1993-05-14","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",176
+"1992-12-05","Algorithm","INCORRECT","New_Funct/Rewritten","Standards","","CODE","CODE",177
+"1992-12-05","Checking","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",178
+"1992-12-05","Checking","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",179
+"1992-12-05","Checking","MISSING","New_Funct/Rewritten","Usability","","CODE","MLD",180
+"1992-12-05","Checking","MISSING","New_Funct/Rewritten","Usability","","CODE","CODE",181
+"1992-12-05","Assignment/Initialization","MISSING","New_Funct/Rewritten","Usability","","CODE","CODE",182
+"1992-11-02","Function","MISSING","New_Funct/Rewritten","Usability","","CLD","CLD",183
+"1992-11-02","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CLD","CLD",184
+"1992-11-02","Function","INCORRECT","New_Funct/Rewritten","Usability","","CLD","CLD",185
+"1992-11-25","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",186
+"1992-11-25","Checking","MISSING","New_Funct/Rewritten","Usability","","CODE","CODE",187
+"1992-11-25","Function","INCORRECT","New_Funct/Rewritten","Usability","","CODE","CODE",188
+"1992-11-25","Function","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",189
+"1992-11-25","Checking","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",190
+"1992-11-25","Function","MISSING","New_Funct/Rewritten","Standards","Design NonConformance","CODE","CODE",191
+"1992-11-25","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","","CODE","CODE",192
+"1992-11-25","Function","INCORRECT","New_Funct/Rewritten","Standards","","CODE","CODE",193
+"1992-11-25","Function","MISSING","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",194
+"1992-11-25","Checking","MISSING","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",195
+"1992-11-25","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",196
+"1992-11-25","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","","CODE","CODE",197
+"1992-11-25","Assignment/Initialization","MISSING","New_Funct/Rewritten","Usability","","CODE","CODE",198
+"1992-11-25","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","CODE","CODE",199
+"1992-11-13","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","MLD","MLD",200
+"1992-11-13","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","MLD","MLD",201
+"1992-11-13","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","MLD","MLD",202
+"1992-11-13","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Maintain/Service","Design NonConformance","MLD","MLD",203
+"1992-11-13","Function","MISSING","","Reliability/Avail","","MLD","MLD",204
+"1992-11-20","Function","MISSING","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",205
+"1992-11-20","Function","MISSING","New_Funct/Rewritten","Usability","","CODE","CODE",206
+"1992-11-20","Function","MISSING","New_Funct/Rewritten","Usability","","CODE","CODE",207
+"1992-11-20","Function","INCORRECT","New_Funct/Rewritten","Usability","","CODE","CODE",208
+"1992-11-20","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","","CODE","CODE",209
+"1992-11-20","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","","CODE","CODE",210
+"1993-03-25","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",211
+"1992-08-07","Function","INCORRECT","","Reliability/Avail","Logic Flow","PLD","PLD",212
+"1992-08-07","Documents","MISSING","","Reliability/Avail","Documentation Content","PLD","PLD",213
+"1992-08-07","Function","INCORRECT","","Reliability/Avail","Logic Flow","PLD","PLD",214
+"1992-08-07","Interface","MISSING","","Maintain/Service","Design NonConformance","PLD","PLD",215
+"1992-08-07","Function","MISSING","","Reliability/Avail","Design NonConformance","PLD","PLD",216
+"1992-08-07","Documents","INCORRECT","","Maintain/Service","Documentation Content","PLD","PLD",217
+"1992-08-07","Function","MISSING","","Reliability/Avail","Bkwd/Lateral Compatibility","PLD","PLD",218
+"1992-11-09","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Concurrency","MLD","MLD",219
+"1992-11-09","Function","MISSING","New_Funct/Rewritten","Capability","","MLD","MLD",220
+"1992-11-09","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","MLD","MLD",221
+"1992-11-09","Function","MISSING","New_Funct/Rewritten","Capability","","MLD","MLD",222
+"1992-11-09","Timing/Serialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Concurrency","MLD","MLD",223
+"1992-11-09","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","MLD","MLD",224
+"1992-11-10","Timing/Serialization","MISSING","New_Funct/Rewritten","Integrity/Security","","MLD","MLD",225
+"1992-11-10","Timing/Serialization","MISSING","New_Funct/Rewritten","Integrity/Security","","MLD","MLD",226
+"1992-11-10","Function","INCORRECT","New_Funct/Rewritten","Capability","","MLD","MLD",227
+"1993-03-15","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","MLD","MLD",228
+"1993-03-15","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","MLD","CODE",229
+"1993-03-15","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","MLD","CODE",230
+"1993-03-17","Function","INCORRECT","","Reliability/Avail","","MLD","MLD",231
+"1993-03-17","Function","INCORRECT","","Reliability/Avail","","MLD","MLD",232
+"1993-03-17","Assignment/Initialization","INCORRECT","","Reliability/Avail","","MLD","CODE",233
+"1993-03-17","Function","INCORRECT","","Reliability/Avail","","MLD","MLD",234
+"1993-03-17","Function","INCORRECT","","Reliability/Avail","","MLD","MLD",235
+"1993-03-22","Function","MISSING","","Reliability/Avail","Design NonConformance","MLD","MLD",236
+"1993-03-08","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","MLD","MLD",237
+"1993-03-08","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","MLD","MLD",238
+"1993-03-08","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","MLD","MLD",239
+"1993-03-08","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","","MLD","MLD",240
+"1993-03-08","Function","MISSING","New_Funct/Rewritten","Performance","","MLD","MLD",241
+"1993-01-12","Function","INCORRECT","New_Funct/Rewritten","Capability","Design NonConformance","FCT","CODE",242
+"1993-01-12","Function","INCORRECT","New_Funct/Rewritten","Capability","Design NonConformance","FCT","CODE",243
+"1993-01-12","Function","INCORRECT","New_Funct/Rewritten","Capability","Design NonConformance","FCT","CODE",244
+"1993-01-13","Assignment/Initialization","MISSING","New_Funct/Rewritten","Capability","Test Coverage/Variation","FCT","CODE",245
+"1993-02-17","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","FCT","CODE",246
+"1993-02-22","Function","INCORRECT","New_Funct/Rewritten","Capability","Rare Situation/Side Effects","FCT","CODE",247
+"1993-02-22","Function","MISSING","New_Funct/Rewritten","Maintain/Service","","ST","PLD",248
+"1993-03-04","Function","MISSING","New_Funct/Rewritten","Capability","Rare Situation/Side Effects","FCT","CODE",249
+"1993-03-08","Function","INCORRECT","New_Funct/Rewritten","Capability","Rare Situation/Side Effects","FCT","MLD",250
+"1993-03-09","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Test Coverage/Variation","FCT","CODE",251
+"1993-04-13","Algorithm","INCORRECT","New_Funct/Rewritten","Capability","","BLD","CODE",252
+"1993-04-15","Function","INCORRECT","New_Funct/Rewritten","Capability","","UT","CODE",253
+"1993-04-16","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","FCT","CODE",254
+"1993-04-20","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","Test Coverage/Variation","FCT","CODE",255
+"1993-04-23","Function","MISSING","New_Funct/Rewritten","Capability","Rare Situation/Side Effects","FCT","MLD",256
+"1993-04-26","Algorithm","MISSING","New_Funct/Rewritten","Maintain/Service","","ST","CLD",257
+"1993-05-07","Algorithm","INCORRECT","New_Funct/Rewritten","Capability","Test Sequencing/Interaction","FCT","CODE",258
+"1993-05-11","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","FCT","MLD",259
+"1993-05-11","Function","INCORRECT","New_Funct/Rewritten","Capability","","FCT","MLD",260
+"1993-05-24","Function","MISSING","New_Funct/Rewritten","Capability","","FCT","PLD",261
+"1993-05-25","Interface","INCORRECT","New_Funct/Rewritten","Usability","","FCT","CODE",262
+"1993-06-02","Algorithm","INCORRECT","Prior_Release","Maintain/Service","","UT","CLD",263
+"1993-06-08","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","Test Sequencing/Interaction","FCT","MLD",264
+"1993-06-09","Interface","INCORRECT","New_Funct/Rewritten","Maintain/Service","","FCT","CODE",265
+"1993-06-17","Checking","MISSING","New_Funct/Rewritten","Capability","Test Sequencing/Interaction","FCT","MLD",266
+"1993-06-28","Assignment/Initialization","MISSING","New_Funct/Rewritten","Maintain/Service","","FCT","CODE",267
+"1993-06-28","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Maintain/Service","","FCT","CODE",268
+"1993-06-30","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","FCT","CODE",269
+"1993-06-30","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","FCT","CODE",270
+"1993-07-02","Assignment/Initialization","MISSING","New_Funct/Rewritten","Maintain/Service","","FCT","CODE",271
+"1993-07-15","Assignment/Initialization","MISSING","","Capability","","FCT","MLD",272
+"1993-07-26","Documents","MISSING","Prior_Release","Documentation","","BLD","BASE",273
+"1993-07-27","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Documentation","","FCT","CODE",274
+"1993-08-17","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","","ST","CODE",275
+"1993-08-26","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","ST","MLD",276
+"1993-08-30","Checking","MISSING","Prior_Release","Usability","","FCT","CLD",277
+"1993-09-02","Interface","INCORRECT","New_Funct/Rewritten","Capability","","ST","CODE",278
+"1993-09-17","Function","INCORRECT","New_Funct/Rewritten","Performance","","PT","MLD",279
+"1993-09-22","Interface","INCORRECT","New_Funct/Rewritten","Usability","","ST","MLD",280
+"1992-11-18","Function","INCORRECT","New_Funct/Rewritten","Capability","Logic Flow","CODE","PLD",281
+"1992-11-18","Function","INCORRECT","New_Funct/Rewritten","Capability","Design NonConformance","CODE","PLD",282
+"1992-12-21","Function","INCORRECT","","Reliability/Avail","Design NonConformance","CLD","CLD",283
+"1992-12-21","Function","INCORRECT","","Reliability/Avail","Design NonConformance","CLD","CLD",284
+"1992-12-21","Interface","MISSING","","Reliability/Avail","Design NonConformance","CLD","CLD",285
+"1992-12-21","Function","MISSING","","Reliability/Avail","Design NonConformance","CLD","CLD",286
+"1992-12-21","Function","MISSING","","Reliability/Avail","Design NonConformance","CLD","CLD",287
+"1992-12-21","Algorithm","INCORRECT","","Reliability/Avail","Design NonConformance","CLD","CLD",288
+"1992-12-21","Algorithm","INCORRECT","","Reliability/Avail","Design NonConformance","MLD","MLD",289
+"1992-12-21","Algorithm","INCORRECT","","Reliability/Avail","Design NonConformance","MLD","MLD",290
+"1992-12-21","Algorithm","INCORRECT","","Reliability/Avail","Documentation Content","PLD","PLD",291
+"1993-04-14","Algorithm","MISSING","New_Funct/Rewritten","Capability","","UT","CODE",292
+"1993-04-14","Function","INCORRECT","New_Funct/Rewritten","Capability","","UT","CODE",293
+"1993-04-14","Function","INCORRECT","New_Funct/Rewritten","Usability","","UT","CODE",294
+"1993-04-14","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Test Sequencing/Interaction","UT","CODE",295
+"1993-04-14","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Capability","","UT","CODE",296
+"1993-04-14","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",297
+"1993-04-14","Algorithm","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Rare Situation/Side Effects","UT","MLD",298
+"1993-04-14","Checking","INCORRECT","New_Funct/Rewritten","Capability","Test Coverage/Variation","UT","CODE",299
+"1993-04-14","Assignment/Initialization","MISSING","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",300
+"1993-04-14","Timing/Serialization","MISSING","New_Funct/Rewritten","Capability","","UT","MLD",301
+"1993-04-14","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",302
+"1993-04-14","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",303
+"1993-04-14","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",304
+"1993-04-14","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","UT","CODE",305
+"1993-04-14","Function","MISSING","Prior_Release","Usability","Design NonConformance","UT","CODE",306
+"1993-04-14","Function","INCORRECT","New_Funct/Rewritten","Capability","Design NonConformance","UT","CODE",307
+"1993-04-14","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",308
+"1993-04-14","Function","INCORRECT","New_Funct/Rewritten","Capability","Design NonConformance","UT","CODE",309
+"1993-04-14","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",310
+"1993-04-14","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",311
+"1993-04-14","Function","INCORRECT","New_Funct/Rewritten","Capability","","UT","CODE",312
+"1993-04-14","Timing/Serialization","MISSING","","Capability","Test Coverage/Variation","UT","CODE",313
+"1993-04-14","Checking","MISSING","New_Funct/Rewritten","Capability","Test Coverage/Variation","UT","CODE",314
+"1993-04-14","Interface","INCORRECT","New_Funct/Rewritten","Capability","","UT","CODE",315
+"1993-05-26","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","Design NonConformance","UT","CODE",316
+"1993-05-26","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","UT","CODE",317
+"1993-05-26","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","UT","CODE",318
+"1993-05-26","Interface","INCORRECT","New_Funct/Rewritten","Usability","","UT","CODE",319
+"1993-05-26","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Usability","","UT","CODE",320
+"1993-05-26","Algorithm","MISSING","New_Funct/Rewritten","Usability","Test Sequencing/Interaction","UT","CODE",321
+"1993-05-26","Algorithm","MISSING","New_Funct/Rewritten","Usability","Test Coverage/Variation","UT","CODE",322
+"1993-05-26","Interface","INCORRECT","New_Funct/Rewritten","Usability","","UT","CODE",323
+"1993-05-26","Checking","INCORRECT","New_Funct/Rewritten","Usability","","UT","CODE",324
+"1993-05-26","Interface","INCORRECT","New_Funct/Rewritten","Usability","","UT","CODE",325
+"1993-05-26","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",326
+"1992-12-21","Algorithm","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",327
+"1992-12-21","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",328
+"1992-12-21","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",329
+"1992-12-21","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",330
+"1992-12-21","Checking","MISSING","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",331
+"1992-12-21","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",332
+"1992-12-21","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",333
+"1992-12-21","Algorithm","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",334
+"1992-12-21","Algorithm","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",335
+"1992-12-21","Checking","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",336
+"1992-12-21","Algorithm","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",337
+"1992-12-21","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",338
+"1992-12-21","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",339
+"1992-12-21","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",340
+"1992-12-21","Function","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",341
+"1992-12-21","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",342
+"1992-12-21","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",343
+"1992-12-21","Interface","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","UT","CODE",344
+"1993-04-25","Assignment/Initialization","INCORRECT","New_Funct/Rewritten","Reliability/Avail","","CODE","CODE",345
+"1992-12-01","Assignment/Initialization","MISSING","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",346
+"1993-03-26","Documents","MISSING","Prior_Release","Standards","Documentation Content","CODE","CODE",347
+"1993-03-26","Function","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CLD",348
+"1993-03-26","Function","INCORRECT","New_Funct/Rewritten","Usability","Logic Flow","CODE","CODE",349
+"1993-03-26","Function","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",350
+"1993-03-26","Function","INCORRECT","New_Funct/Rewritten","Usability","Design NonConformance","CODE","CODE",351
+"1993-03-09","Function","MISSING","New_Funct/Rewritten","Reliability/Avail","Test Coverage/Variation","CODE","CLD",352
+"1993-03-18","Function","MISSING","New_Funct/Rewritten","Capability","Test Coverage/Variation","CODE","MLD",353
+"1993-04-05","Function","INCORRECT","Prior_Release","Capability","Test Coverage/Variation","UT","CODE",354
+"1992-07-15","Checking","MISSING","","Maintain/Service","Design NonConformance","PLD","PLD",355
+"1992-07-15","Function","MISSING","","Maintain/Service","Design NonConformance","PLD","PLD",356
+"1992-07-15","Function","MISSING","","Maintain/Service","Design NonConformance","PLD","PLD",357
+"1992-07-15","Documents","MISSING","","Migration","Design NonConformance","PLD","PLD",358
+"1992-09-22","Interface","INCORRECT","","Standards","Design NonConformance","PLD","PLD",359
+"1992-09-22","Interface","INCORRECT","","Migration","Bkwd/Lateral Compatibility","PLD","PLD",360
+"1992-09-22","Algorithm","MISSING","","Maintain/Service","Documentation Content","PLD","PLD",361
+"1992-09-22","Interface","INCORRECT","","Maintain/Service","Documentation Content","PLD","PLD",362
+"1992-09-22","Algorithm","MISSING","","Capability","Design NonConformance","PLD","PLD",363
+"1992-09-22","Algorithm","INCORRECT","","Capability","Design NonConformance","PLD","PLD",364
+"1993-04-07","Algorithm","INCORRECT","New_Funct/Rewritten","Usability","","CODE","CODE",365
+"1993-04-03","Assignment/Initialization","MISSING","Reused_Code","Usability","Design NonConformance","CODE","CODE",366
+"1993-04-03","Checking","MISSING","Reused_Code","Usability","","CODE","CODE",367
+"1993-04-03","Checking","INCORRECT","Reused_Code","Usability","","CODE","CODE",368
+"1993-04-03","Assignment/Initialization","INCORRECT","Reused_Code","Usability","","CODE","CODE",369
+"1993-04-03","Checking","INCORRECT","Reused_Code","Usability","","CODE","CODE",370
+"1993-04-03","Assignment/Initialization","MISSING","Reused_Code","Usability","","CODE","CODE",371
+"1993-04-03","Assignment/Initialization","MISSING","Reused_Code","Usability","","CODE","CODE",372
+"1993-04-03","Assignment/Initialization","MISSING","Reused_Code","Usability","","CODE","CODE",373
+"1993-04-03","Assignment/Initialization","MISSING","Reused_Code","Usability","","CODE","CODE",374
+"1993-04-03","Assignment/Initialization","INCORRECT","Reused_Code","Usability","","CODE","CODE",375
+"1993-04-03","Assignment/Initialization","INCORRECT","Reused_Code","Usability","","CODE","CODE",376
+"1993-04-03","Timing/Serialization","MISSING","Reused_Code","Usability","","CODE","CODE",377
+"1993-04-03","Assignment/Initialization","INCORRECT","Reused_Code","Usability","","CODE","CODE",378
