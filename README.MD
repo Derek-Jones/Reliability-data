@@ -3,15 +3,15 @@ Software reliability data
 
 The aim of this repository is to collect all the publicly available software reliability data having the form: "fault_number,CPU_time".  Some exceptions have been made when a reliability dataset is used by multiple papers that analyse this kind of data.
 
-If you know of any datasets that are missing, and you have the data, please send me a copy.  Also, if you spot any mistakes, please let me know.
-
 Software reliability data is scattered over many papers, which can be hard to find.
 
-I have yet to found a copy of the widely cited paper: "Software Reliability Data" by J. D. Musa, 1979, Data and Analysis Center for Software, Rome Air Development Center, Rome, New York.  It appgitears to contain many datasets that I don't have.
+If you know of any datasets that are missing, and you have the data, please send me a copy.  Also, if you spot any mistakes, please let me know.
+
+I have yet to find a copy of the widely cited paper: "Software Reliability Data" by J. D. Musa, 1979, Data and Analysis Center for Software, Rome Air Development Center, Rome, New York.  It appgitears to contain many datasets that I don't have.
 
 Entries are listed in order of first author of the paper that first published the data.  Note that it's common for paper _X_ to cite _Y_ as the source of the data, without checking to find that _Y_ cites _Z_ as the source of the data (occasionally the citation chain is longer).
 
-There are no commonly used naming conventions for this data.  It's common for authors to name the datasets as DS1, DS2, etc.  I have kept the names used when they make sense, otherwise I have used the convention author_table_number.
+There are no commonly used naming conventions for reliability datasets.  It's common for authors to name the datasets as DS1, DS2, etc.  I have kept the names used when they make sense, otherwise I have used the convention author_table_number.
 
 **anna_D11.csv**
 S. Anna-Mary, "A Study of the MUSA reliability model," M.S. thesis, Dept. Comput. Sci., Univ. Maryland, College Park, MD, USA 1980, data from [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
