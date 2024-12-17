@@ -7,7 +7,7 @@ If you know of any datasets that are missing, and you have the data, please send
 
 Software reliability data is scattered over many papers, which can be hard to find.
 
-I have yet to found a copy of the widely cited paper: "Software Reliability Data" by J. D. Musa, 1979, Data and Analysis Center for Software, Rome Air Development Center, Rome, New York.  It appears to contain many datasets that I don't have.
+I have yet to found a copy of the widely cited paper: "Software Reliability Data" by J. D. Musa, 1979, Data and Analysis Center for Software, Rome Air Development Center, Rome, New York.  It appgitears to contain many datasets that I don't have.
 
 Entries are listed in order of first author of the paper that first published the data.  Note that it's common for paper _X_ to cite _Y_ as the source of the data, without checking to find that _Y_ cites _Z_ as the source of the data (occasionally the citation chain is longer).
 
@@ -413,7 +413,7 @@ The software system is for a real-time control application consisting of 870,000
 **tohma89_tV.csv**
 Tohma Y., Tokunaga K., Nagase S., and Murata Y., "Structural Approach to the Estimation of the Number of Residual Software Faults Based on the Hyper-Geometric Distribution", IEEE Transactions on Software Engineering, Vol 15(3), pages 345-355, March 1989.
 
-50 rows
+199 rows
 
 The software system is a railway interlocking system and has about 14,500 assembly instructions. The cumulative test time is reported in days.
 
