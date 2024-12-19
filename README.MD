@@ -1,17 +1,17 @@
 Software reliability data
 -------------------------
 
-The aim of this repository is to collect all the publicly available software reliability data having the form: "fault_number,CPU_time".  Some exceptions have been made when a reliability dataset is used by multiple papers that analyse this kind of data.
+The aim of this repository is to collect all the publicly available software reliability data having the form: "fault_number,CPU_time". Some exceptions have been made when a reliability dataset is used by multiple papers that analyse this kind of data.
 
 Software reliability data is scattered over many papers, which can be hard to find.
 
-If you know of any datasets that are missing, and you have the data, please send me a copy.  Also, if you spot any mistakes, please let me know.
+If you know of any datasets that are missing, and you have the data, please send me a copy. Also, if you spot any mistakes, please let me know.
 
-I have yet to find a copy of the widely cited paper: "Software Reliability Data" by J. D. Musa, 1979, Data and Analysis Center for Software, Rome Air Development Center, Rome, New York.  It appgitears to contain many datasets that I don't have.
+I have yet to find a copy of the widely cited paper: "Software Reliability Data" by J. D. Musa, 1979, Data and Analysis Center for Software, Rome Air Development Center, Rome, New York. It appgitears to contain many datasets that I don't have.
 
 Entries are listed in order of first author of the paper that first published the data.  Note that it's common for paper _X_ to cite _Y_ as the source of the data, without checking to find that _Y_ cites _Z_ as the source of the data (occasionally the citation chain is longer).
 
-There are no commonly used naming conventions for reliability datasets.  It's common for authors to name the datasets as DS1, DS2, etc.  I have kept the names used when they make sense, otherwise I have used the convention author_table_number.
+There are no commonly used naming conventions for this data.  It's common for authors to name the datasets as DS1, DS2, etc.  I have kept the names used when they make sense, otherwise I have used the convention author_table_number.
 
 **anna_D11.csv**
 S. Anna-Mary, "A Study of the MUSA reliability model," M.S. thesis, Dept. Comput. Sci., Univ. Maryland, College Park, MD, USA 1980, data from [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
@@ -274,6 +274,20 @@ Matsumoto K., K. Inoue, T.Kikuno, and K. Torii, "Experimental Evaluation of Soft
 27 rows
 
 Cumulative number of faults detected up to time t (minutes) in five student implementations of a compiler for a subset of Pascal (each around 1,000 lines).
+
+**Stratus-1.csv**
+Robert E. Mullen, R. E., "The Lognormal Distribution of Software Failure Rates: Application to Software Reliability Growth Modeling", Proceedings Ninth International Symposium on Software Reliability Engineering, pages 134-142, 1998.
+
+73 rows
+
+Several hundred years of customer exposure on an operating system release containing over one million lines of code, supporting fault tolerant hardware. Series lists the cumulative number of machine-hours and the cumulative number of distinct faults discovered on a weekly basis. Each machine was attached to the Stratus Remote Service Network (RSN); failures reported by customers are logged; if a call due to a fault a bug number is assigned to the call. If the fault has not been seen before, a new bug number is assigned. The earliest call for each fault (bug number) identifies the calendar week in which a failure due to the fault first occurred.
+
+**Stratus-2.csv**
+Robert E. Mullen, R. E., "The Lognormal Distribution of Software Failure Rates: Application to Software Reliability Growth Modeling", Proceedings Ninth International Symposium on Software Reliability Engineering, pages 134-142, 1998.
+
+120 rows
+
+Several hundred years of customer exposure on an operating system release containing over one million lines of code, supporting fault tolerant hardware. Series lists the cumulative number of machine-hours and the cumulative number of distinct faults discovered on a weekly basis. Each machine was attached to the Stratus Remote Service Network (RSN); failures reported by customers are logged; if a call due to a fault a bug number is assigned to the call. If the fault has not been seen before, a new bug number is assigned. The earliest call for each fault (bug number) identifies the calendar week in which a failure due to the fault first occurred.
 
 **CSR1.csv**
 Musa, J. D., "Software Reliability Data," Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
