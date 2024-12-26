@@ -48,6 +48,14 @@ Brooks W. D., R.W. Motley, "Analysis of Discrete Software Reliability Models," R
 
 Formal testing of large command and control software written in Jovial.
 
+**BAe.csv**
+
+Chan P. Y.,  "Software reliability prediction" Doctoral thesis, 1986, The City University, London.
+
+207 rows
+
+Assumed to be some unknown time interval between faults.  From British Aerospace.
+
 **ODC1.csv**
 Chillarege R., "Orthogonal Defect Classification", in [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
@@ -88,6 +96,13 @@ Chillarege R., "Orthogonal Defect Classification", in [Handbook of Software Reli
 Chillarege R., "Orthogonal Defect Classification", in [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 196 rows
+
+**NTDS.csv**
+Goel A. L., and Okumoto K., "Time-Dependent Error-Detection Rate Model for Software Reliability and Other Performance Measures", IEEE Transactions on Reliability, Vol. R-28(3), Aug 1979.  The cited source is: Jelinski Z., and Moranda P., “Software reliability research”, in "Statistical Computer Performance Evaluation", ed Freiberger W., Academic Press, 1972, pp 465-484, which does not actually contain the data.
+
+34 rows
+
+The data from the U.S. Navy Fleet Computer Programming Center, and consist of the errors in the development of software for the real-time, multicomputer complex. The NTDS software consisted of some 38 different modules. Each module was supposed to follow three stages: production (development) phase, test phase, and user phase. The data are based on the trouble reports or ‘software anomaly reports’ for one of the larger modules, denoted as A-module ans gives the times (days) between software failures. Twenty six software errors were found during production phase and five additional errors during test phase. The ‘last’ error was found on 4 Jan 1971. Then, one error was observed during the user phase on 20 Sep 1971, and two more errors (1971 Oct 5/10 Nov) during a subsequent test phase, indicating that a rework of the module had taken place after the user error was found.
 
 **TABLE20.csv**
 Iyer R. K., and I. Lee, "Measurement-Bsed Analysis of Software Reliability", in [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
@@ -275,6 +290,13 @@ Matsumoto K., K. Inoue, T.Kikuno, and K. Torii, "Experimental Evaluation of Soft
 
 Cumulative number of faults detected up to time t (minutes) in five student implementations of a compiler for a subset of Pascal (each around 1,000 lines).
 
+**apollo8.csv**
+Mazzuchi T. A., Soyer R., "A Bayes Empirical-Bayes Model for Software Reliability", IEEE Transactions on Reliability, vol. 37(2), pages 248-254, Jun 1988. The cited source is: Jelinski Z., and Moranda P., “Software reliability research”, in "Statistical Computer Performance Evaluation", ed Freiberger W., Academic Press, 1972, pp 465-484, which does not actually contain the data.
+
+26 rows
+
+Apollo 8 software test data.
+
 **Stratus-1.csv**
 Robert E. Mullen, R. E., "The Lognormal Distribution of Software Failure Rates: Application to Software Reliability Growth Modeling", Proceedings Ninth International Symposium on Software Reliability Engineering, pages 134-142, 1998.
 
@@ -394,7 +416,7 @@ Ohba M., "Software reliability analysis models," IBM Journal of Research and Dev
 
 19 rows
 
-The system is a PL/I database application software consisting of approximately 1,317,000 lines of code.
+The system is a PL/I database application software consisting of approximately 1,317,000 lines of code.  Each row cntains cumulative faults/CPU time for consecutive elapsed weeks.
 
 **Ohba84-hcp.csv**
 Ohba M., "Software reliability analysis models," IBM Journal of Research and Development, pp 428-442, Vol 28(4), Jul 1984.
@@ -403,24 +425,38 @@ The system is consists of three software modules of a hardware control program. 
 
 10 rows
 
+**stucki_tI.csv**
+Stucki L. G., Moranda P., Foshee G, and Omre R., "Final Report A Methodology for Producing Reliable Software vol I", Mar 1976, MDC G6210, McDonnell-Douglas Astronautics Company-West.  Who cites the source: Wagoner, W. L., "The Final Report on a Software Reliability Measurement Study," Report #TOR-0074 (4112)-1, Aerospace Corporation.
+
+15 rows
+
+Errors recorded during a period while the debugging of a data-reduction program, called the F11-D Program, consisting of "approximately 3-4 thousand" Fortran statements, consuming given CPU time during the period.
+
 **tohma89_t1.csv**
 Tohma Y., Jacoby R., Murata Y., and Yamamoto M., "Hyper-Geometric Distribution Model to Estimate the Number of Residual Software Faults", 1989, Proceedings of the Thirteenth Annual International Computer Software & Applications Conference.
 
-55 rows
+111 rows
 
 The software system is a monitoring and real-time control system and consists of 200,000 lines of code. The cumulative test time is reported in days.
 
-**tohma89_t4.csv**
+**tohma89_t3.csv**
 Tohma Y., Jacoby R., Murata Y., and Yamamoto M., "Hyper-Geometric Distribution Model to Estimate the Number of Residual Software Faults", 1989, Proceedings of the Thirteenth Annual International Computer Software & Applications Conference.
 
-25 rows
+22 rows
+
+The software system is a monitoring and real-time control system and consists of 200,000 lines of code. The cumulative test time is reported in days.
+
+**tohma89_t5.csv**
+Tohma Y., Jacoby R., Murata Y., and Yamamoto M., "Hyper-Geometric Distribution Model to Estimate the Number of Residual Software Faults", 1989, Proceedings of the Thirteenth Annual International Computer Software & Applications Conference.
+
+46 rows
 
 The software system is a monitoring and real-time control system and consists of 200,000 lines of code. The cumulative test time is reported in days.
 
 **tohma91_t1.csv**
 Tohma Y., Yamano H., Ohba M., and Jacoby R., "Parameter Estimation of the Hyper-Geometric Distribution Model for Real Test/Debug Data", 1991, International Symposium on Software Reliability Engineering.
 
-40 rows
+109 rows
 
 The software system is for a real-time control application consisting of 870,000 lines of code.  The cumulative test time is reported in days.
 
