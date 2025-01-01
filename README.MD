@@ -1,17 +1,17 @@
 Software reliability data
 -------------------------
 
-The aim of this repository is to collect all the publicly available software reliability data having the form: "fault_number,CPU_time". Some exceptions have been made when a reliability dataset is used by multiple papers that analyse this kind of data.
+The aim of this repository is to collect all the publicly available software reliability data having the form: "_fault_number,CPU_time_". Some exceptions have been made for reliability datasets used by multiple papers that analyse this kind of data.
 
-Software reliability data is scattered over many papers, which can be hard to find.
+Software reliability data is scattered over many papers, which can be hard to find.  For an analysis of this kind of data, download the Reliability chapter of the book [Evidence-Based Software Engineering](http://knosof.co.uk/ESEUR/)
 
 If you know of any datasets that are missing, and you have the data, please send me a copy. Also, if you spot any mistakes, please let me know.
 
-I have yet to find a copy of the widely cited paper: "Software Reliability Data" by J. D. Musa, 1979, Data and Analysis Center for Software, Rome Air Development Center, Rome, New York. It appgitears to contain many datasets that I don't have.
+I have yet to find a copy of the widely cited paper: "Software Reliability Data" by J. D. Musa, 1979, Data and Analysis Center for Software, Rome Air Development Center, Rome, New York. It appears to contain datasets that are not present here.
 
 Entries are listed in order of first author of the paper that first published the data.  Note that it's common for paper _X_ to cite _Y_ as the source of the data, without checking to find that _Y_ cites _Z_ as the source of the data (occasionally the citation chain is longer).
 
-There are no commonly used naming conventions for this data.  It's common for authors to name the datasets as DS1, DS2, etc.  I have kept the names used when they make sense, otherwise I have used the convention author_table_number.
+There are no commonly used naming conventions for this data.  It's common for authors to name the datasets they analyse as _DS1_, _DS2_, etc.  I have kept the names used when they make sense, otherwise I have used the convention _author_table_number_.
 
 **anna_D11.csv**
 S. Anna-Mary, "A Study of the MUSA reliability model," M.S. thesis, Dept. Comput. Sci., Univ. Maryland, College Park, MD, USA 1980, data from [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
@@ -42,11 +42,11 @@ Brooks W. D., R.W. Motley, "Analysis of Discrete Software Reliability Models," R
 Formal testing of large command and control software written in CENTRAN and Assembly Language.
 
 **Brooks_p2.csv**
-Brooks W. D., R.W. Motley, "Analysis of Discrete Software Reliability Models," RADC-TR-80-84, Apr 1980, Rome Air Development Center.  Table 3.2.2-2.
+Brooks W. D., and Motley R. W., "Analysis of Discrete Software Reliability Models," RADC-TR-80-84, Apr 1980, Rome Air Development Center.  Table 3.2.2-2.
 
 35 rows
 
-Formal testing of large command and control software written in Jovial.
+Formal testing of 317 KLOC of Jovial for a real-time command and control system.
 
 **BAe.csv**
 
@@ -97,6 +97,20 @@ Chillarege R., "Orthogonal Defect Classification", in [Handbook of Software Reli
 
 196 rows
 
+**dalal_tI.csv**
+Dalal S. R. and McIntosh A. A.,"When to Stop Testing for Large Software Systems with Changing Code," IEEE Transactions on Software Engineering, vol 20(4) Apr 1994, pages 318-323.
+
+198 rows
+
+System A is a large telecommunications software system, consisting of approximately 7,000,000 noncommentary source lines (NCSL).  The data is for the subsequent 400,000 new or changed noncommentary source lines (NCNCSL) which added new features or fixed existing faults.
+
+**goel_tII.csv**
+Goel A. L., "Software Reliability Models: Assumptions, Limitations, and Applicability", Transactions on Software Engineering, vol. SE-11, NO. 12, Dec 1985, pages 1411-1423.  The cited source is Musa's "Software Reliability Data," DACS report.
+
+25 rows
+
+A system containing 21,700 object instructions developed by Bell Laboratories.
+
 **NTDS.csv**
 Goel A. L., and Okumoto K., "Time-Dependent Error-Detection Rate Model for Software Reliability and Other Performance Measures", IEEE Transactions on Reliability, Vol. R-28(3), Aug 1979.  The cited source is: Jelinski Z., and Moranda P., “Software reliability research”, in "Statistical Computer Performance Evaluation", ed Freiberger W., Academic Press, 1972, pp 465-484, which does not actually contain the data.
 
@@ -105,7 +119,7 @@ Goel A. L., and Okumoto K., "Time-Dependent Error-Detection Rate Model for Softw
 The data from the U.S. Navy Fleet Computer Programming Center, and consist of the errors in the development of software for the real-time, multicomputer complex. The NTDS software consisted of some 38 different modules. Each module was supposed to follow three stages: production (development) phase, test phase, and user phase. The data are based on the trouble reports or ‘software anomaly reports’ for one of the larger modules, denoted as A-module ans gives the times (days) between software failures. Twenty six software errors were found during production phase and five additional errors during test phase. The ‘last’ error was found on 4 Jan 1971. Then, one error was observed during the user phase on 20 Sep 1971, and two more errors (1971 Oct 5/10 Nov) during a subsequent test phase, indicating that a rework of the module had taken place after the user error was found.
 
 **TABLE20.csv**
-Iyer R. K., and I. Lee, "Measurement-Bsed Analysis of Software Reliability", in [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+Iyer R. K., and I. Lee, "Measurement-Based Analysis of Software Reliability", in [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 186 rows
 
@@ -416,7 +430,7 @@ Ohba M., "Software reliability analysis models," IBM Journal of Research and Dev
 
 19 rows
 
-The system is a PL/I database application software consisting of approximately 1,317,000 lines of code.  Each row cntains cumulative faults/CPU time for consecutive elapsed weeks.
+The system is a PL/I database application software consisting of approximately 1,317,000 lines of code.  Each row contains cumulative faults/CPU time for consecutive elapsed weeks.
 
 **Ohba84-hcp.csv**
 Ohba M., "Software reliability analysis models," IBM Journal of Research and Development, pp 428-442, Vol 28(4), Jul 1984.
@@ -424,6 +438,11 @@ Ohba M., "Software reliability analysis models," IBM Journal of Research and Dev
 The system is consists of three software modules of a hardware control program. The size of the combined system is approximately 35,000 lines of code.  The test data are reported for individual modules as well as the combined system.
 
 10 rows
+
+**singsys_40.csv**
+Singpurwalla N. D., "Software Reliability Modeling by Concatenating Failure Rates," Proceedings Ninth International Symposium on Software Reliability Engineering, 1998, pages 106-110.  The cited source is Musa's "Software Reliability Data," DACS report, and say it comes from System 40.
+
+100 rows
 
 **stucki_tI.csv**
 Stucki L. G., Moranda P., Foshee G, and Omre R., "Final Report A Methodology for Producing Reliable Software vol I", Mar 1976, MDC G6210, McDonnell-Douglas Astronautics Company-West.  Who cites the source: Wagoner, W. L., "The Final Report on a Software Reliability Measurement Study," Report #TOR-0074 (4112)-1, Aerospace Corporation.
@@ -473,6 +492,48 @@ Xie M., Q. P. Hu, Y. P. Wu and S. H. Ng, "A Study of the Modeling and Analysis o
 17 rows
 
 Faults detected and corrected in each week.
+
+**westgate_F1.csv**
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+
+197 rows
+
+Space system.  Failures with DOD severity code of 1 (System Abort. A software of firmware problem that results in a system abort.) or 2(System Degraded. No Work-around. A software of firmware problem that severely degrades the system and no alternative work-around exists (program restarts not acceptable)).  Date gives when the fault was discovered.
+
+**westgate_F2.csv**
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+
+16 rows
+
+Aircraft system.  Failures with DOD severity code of 1 (System Abort. A software of firmware problem that results in a system abort.) or 2(System Degraded. No Work-around. A software of firmware problem that severely degrades the system and no alternative work-around exists (program restarts not acceptable)).  Date gives when the fault was discovered.
+
+**westgate_F3.csv**
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+
+199 rows
+
+Communication system.  Failures with DOD severity code of 1 (System Abort. A software of firmware problem that results in a system abort.) or 2(System Degraded. No Work-around. A software of firmware problem that severely degrades the system and no alternative work-around exists (program restarts not acceptable)).  Date gives when the fault was discovered.
+
+**westgate_F4.csv**
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+
+202 rows
+
+Communication system. a Failures with DOD severity code of 1 (System Abort. A software of firmware problem that results in a system abort.) or 2(System Degraded. No Work-around. A software of firmware problem that severely degrades the system and no alternative work-around exists (program restarts not acceptable)).  Date gives when the fault was discovered.
+
+**westgate_F5.csv**
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+
+409 rows
+
+Space system.  Failures with DOD severity code of 1 (System Abort. A software of firmware problem that results in a system abort.) or 2(System Degraded. No Work-around. A software of firmware problem that severely degrades the system and no alternative work-around exists (program restarts not acceptable)).  Date gives when the fault was discovered.
+
+**westgate_F6.csv**
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+
+115 rows
+
+Space system.  Failures with DOD severity code of 1 (System Abort. A software of firmware problem that results in a system abort.) or 2(System Degraded. No Work-around. A software of firmware problem that severely degrades the system and no alternative work-around exists (program restarts not acceptable)).  Date gives when the fault was discovered.
 
 **Wood_T3-1.csv**
 Wood A., "Software Reliability Growth Models", Technical Report 96.1, Sep 1996, Tandem Computers.
