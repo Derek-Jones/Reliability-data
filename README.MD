@@ -13,36 +13,55 @@ Entries are listed in order of first author of the paper that first published th
 
 There are no commonly used naming conventions for this data.  It's common for authors to name the datasets they analyse as _DS1_, _DS2_, etc.  I have kept the names used when they make sense, otherwise I have used the convention _author_table_number_.
 
+**Angus_t411.csv**
+Angus J. E., Bowen J. B., and VanDenBerg S. J., "Reliability Model Demonstration Study", report RADC-TR-83-207, Vol I, Aug 1983, Hughs Aircraft Company.
+
+491 rows
+
+The Highes Joint Surveillance Systems was a major command, control, communications, and intelligence system written in Jovial, containing 330,000 DSLOC in 6,000 modules
+
+_CPCI_ - Computer Program Configuration Item
+_CU_ - compilation unit
+_PHASE_ - four test phases: _IT_ integration test, _SD_ independent test, _ST_ System Test, and _IN_ installation test.
+TIME is in increments of weeks.
+
 **anna_D11.csv**
-S. Anna-Mary, "A Study of the MUSA reliability model," M.S. thesis, Dept. Comput. Sci., Univ. Maryland, College Park, MD, USA 1980, data from [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+S. Anna-Mary, "A Study of the MUSA reliability model", M.S. thesis, Dept. Comput. Sci., Univ. Maryland, College Park, MD, USA 1980, data from [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 118 rows
 
 The software system is a flight dynamic application consisting of 10,000 lines of code.  The cumulative test time is reported in hours.
 
 **anna_D12.csv**
-S. Anna-Mary, "A Study of the MUSA reliability model," M.S. thesis, Dept. Comput. Sci., Univ. Maryland, College Park, MD, USA 1980, data from [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+S. Anna-Mary, "A Study of the MUSA reliability model", M.S. thesis, Dept. Comput. Sci., Univ. Maryland, College Park, MD, USA 1980, data from [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 180 rows
 
 The software system is a flight dynamic application consisting of 22,500 lines of code.  The cumulative test time is reported in hours.
 
 **anna_D13.csv**
-S. Anna-Mary, "A Study of the MUSA reliability model," M.S. thesis, Dept. Comput. Sci., Univ. Maryland, College Park, MD, USA 1980, data from [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+S. Anna-Mary, "A Study of the MUSA reliability model", M.S. thesis, Dept. Comput. Sci., Univ. Maryland, College Park, MD, USA 1980, data from [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 213 rows
 
 The software system is a dynamic application consisting of 38,500 lines of code.  The cumulative test time is reported in hours.
 
+**Baker_F7.csv**
+Baker W. F., "Software Data Collection and Analysis: A real-time system project history", report RADC-TR-77-192, Jun 1977, IBM Corporation.  Numeric values extracted from plot.
+
+12 rows
+
+A subset of faults reported in a large, ground-based, real-time data processing system written in CENTRAN.
+
 **Brooks_p1.csv**
-Brooks W. D., R.W. Motley, "Analysis of Discrete Software Reliability Models," RADC-TR-80-84, Apr 1980, Rome Air Development Center.  Table 3.2.2-1.
+Brooks W. D., R.W. Motley, "Analysis of Discrete Software Reliability Models", RADC-TR-80-84, Apr 1980, Rome Air Development Center.  Table 3.2.2-1.
 
 12 rows
 
 Formal testing of large command and control software written in CENTRAN and Assembly Language.
 
 **Brooks_p2.csv**
-Brooks W. D., and Motley R. W., "Analysis of Discrete Software Reliability Models," RADC-TR-80-84, Apr 1980, Rome Air Development Center.  Table 3.2.2-2.
+Brooks W. D., and Motley R. W., "Analysis of Discrete Software Reliability Models", RADC-TR-80-84, Apr 1980, Rome Air Development Center.  Table 3.2.2-2.
 
 35 rows
 
@@ -97,15 +116,27 @@ Chillarege R., "Orthogonal Defect Classification", in [Handbook of Software Reli
 
 196 rows
 
+**crow_A1.csv**
+
+Crow, L. H. and Singpurwalla N. D., "An Empirically Developed Fourier Series model for describing software failures", Technical Report no-373, US Army Materiel Systems Analysis Activity, July 1983
+
+**crow_A2.csv**
+
+Crow, L. H. and Singpurwalla N. D., "An Empirically Developed Fourier Series model for describing software failures", Technical Report no-373, US Army Materiel Systems Analysis Activity, July 1983
+
+**crow_B1.csv**
+
+Crow, L. H. and Singpurwalla N. D., "An Empirically Developed Fourier Series model for describing software failures", Technical Report no-373, US Army Materiel Systems Analysis Activity, July 1983
+
 **dalal_tI.csv**
-Dalal S. R. and McIntosh A. A.,"When to Stop Testing for Large Software Systems with Changing Code," IEEE Transactions on Software Engineering, vol 20(4) Apr 1994, pages 318-323.
+Dalal S. R. and McIntosh A. A.,"When to Stop Testing for Large Software Systems with Changing Code", IEEE Transactions on Software Engineering, vol 20(4) Apr 1994, pages 318-323.
 
 198 rows
 
 System A is a large telecommunications software system, consisting of approximately 7,000,000 noncommentary source lines (NCSL).  The data is for the subsequent 400,000 new or changed noncommentary source lines (NCNCSL) which added new features or fixed existing faults.
 
 **goel_tII.csv**
-Goel A. L., "Software Reliability Models: Assumptions, Limitations, and Applicability", Transactions on Software Engineering, vol. SE-11, NO. 12, Dec 1985, pages 1411-1423.  The cited source is Musa's "Software Reliability Data," DACS report.
+Goel A. L., "Software Reliability Models: Assumptions, Limitations, and Applicability", Transactions on Software Engineering, vol. SE-11, NO. 12, Dec 1985, pages 1411-1423.  The cited source is Musa's "Software Reliability Data", DACS report.
 
 25 rows
 
@@ -159,7 +190,7 @@ Jones W. D., "Field Data Analysis", in [Handbook of Software Reliability Enginee
 
 32 rows
 
-Cited source: "The KAT (knowledge-action-transformation) approach to the modeling and evaluation of reliability and availability growth," J.-C. Laprie K. Kanoun; C. Beounes, and M. Kaaniche.
+Cited source: "The KAT (knowledge-action-transformation) approach to the modeling and evaluation of reliability and availability growth", J.-C. Laprie K. Kanoun; C. Beounes, and M. Kaaniche.
 
 Brazilian Electronic Switching System, TROPICO R-4096 for 4096 subscribers. Software size is about 300 kb written in Assembly Language.
 
@@ -168,7 +199,7 @@ Jones W. D., "Field Data Analysis", in [Handbook of Software Reliability Enginee
 
 14 rows
 
-Cited source: "Practical Quantitative Methods of Improving Software Quality: Based on Decades of Experience,"  Onoma, A.K., and Yamaura, T, NRC Workshop on Statistics in Software Engineering, NRC, Washington, D.C., October 1993.
+Cited source: "Practical Quantitative Methods of Improving Software Quality: Based on Decades of Experience",  Onoma, A.K., and Yamaura, T, NRC Workshop on Statistics in Software Engineering, NRC, Washington, D.C., October 1993.
 
 Hitachi Software tracks the number of system failures detected at customer sites. Filed Failure Ratio (FFR) is the number of system failures per month per thousand systems.
 
@@ -291,7 +322,7 @@ Kanoun K., and J-C. Laprie, "Trend Analysis", in [Handbook of Software Reliabili
 Failures per 5,000 seconds interval.
 
 **SS1.csv**
-Kanoun K., M.R. de Bastos Martini; J.M. de Souza, "A method for software reliability analysis and prediction application to the TROPICO-R switching system," IEEE Transactions on Software Engineering Vol 17(4) pages 334-344, Apr 1991.
+Kanoun K., M.R. de Bastos Martini; J.M. de Souza, "A method for software reliability analysis and prediction application to the TROPICO-R switching system", IEEE Transactions on Software Engineering Vol 17(4) pages 334-344, Apr 1991.
 
 81 rows
 
@@ -326,42 +357,42 @@ Robert E. Mullen, R. E., "The Lognormal Distribution of Software Failure Rates: 
 Several hundred years of customer exposure on an operating system release containing over one million lines of code, supporting fault tolerant hardware. Series lists the cumulative number of machine-hours and the cumulative number of distinct faults discovered on a weekly basis. Each machine was attached to the Stratus Remote Service Network (RSN); failures reported by customers are logged; if a call due to a fault a bug number is assigned to the call. If the fault has not been seen before, a new bug number is assigned. The earliest call for each fault (bug number) identifies the calendar week in which a failure due to the fault first occurred.
 
 **CSR1.csv**
-Musa, J. D., "Software Reliability Data," Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+Musa, J. D., "Software Reliability Data", Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 397 rows
 
 **CSR2.csv**
-Musa, J. D., "Software Reliability Data," Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+Musa, J. D., "Software Reliability Data", Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 129 rows
 
 **CSR3.csv**
-Musa, J. D., "Software Reliability Data," Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+Musa, J. D., "Software Reliability Data", Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 104 rows
 
 **SS3.csv**
-Musa, J. D., "Software Reliability Data," Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+Musa, J. D., "Software Reliability Data", Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 278 rows
 
 **SS4.csv**
-Musa, J. D., "Software Reliability Data," Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+Musa, J. D., "Software Reliability Data", Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 197 rows
 
 **SYS1.csv**
-Musa, J. D., "Software Reliability Data," Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+Musa, J. D., "Software Reliability Data", Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 136 rows
 
 **SYS2.csv**
-Musa, J. D., "Software Reliability Data," Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+Musa, J. D., "Software Reliability Data", Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 86 rows
 
 **SYS3.csv**
-Musa, J. D., "Software Reliability Data," Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
+Musa, J. D., "Software Reliability Data", Technical Report, Data and Analysis Center for Software, Rome Air Development Center, Griffins AFB, New York, 1979.  via [Handbook of Software Reliability Engineering](https://www.cse.cuhk.edu.hk/~lyu/book/reliability/) ed Michael R. Lyu
 
 207 rows
 
@@ -426,26 +457,26 @@ Nikora A. P. and M. R. Lyu, "Software Reliability Measurement Experience", in [H
 73 rows
 
 **PL1_db.csv**
-Ohba M., "Software reliability analysis models," IBM Journal of Research and Development, pp 428-442, Vol 28(4), Jul 1984.
+Ohba M., "Software reliability analysis models", IBM Journal of Research and Development, pp 428-442, Vol 28(4), Jul 1984.
 
 19 rows
 
 The system is a PL/I database application software consisting of approximately 1,317,000 lines of code.  Each row contains cumulative faults/CPU time for consecutive elapsed weeks.
 
 **Ohba84-hcp.csv**
-Ohba M., "Software reliability analysis models," IBM Journal of Research and Development, pp 428-442, Vol 28(4), Jul 1984.
+Ohba M., "Software reliability analysis models", IBM Journal of Research and Development, pp 428-442, Vol 28(4), Jul 1984.
 
 The system is consists of three software modules of a hardware control program. The size of the combined system is approximately 35,000 lines of code.  The test data are reported for individual modules as well as the combined system.
 
 10 rows
 
 **singsys_40.csv**
-Singpurwalla N. D., "Software Reliability Modeling by Concatenating Failure Rates," Proceedings Ninth International Symposium on Software Reliability Engineering, 1998, pages 106-110.  The cited source is Musa's "Software Reliability Data," DACS report, and say it comes from System 40.
+Singpurwalla N. D., "Software Reliability Modeling by Concatenating Failure Rates", Proceedings Ninth International Symposium on Software Reliability Engineering, 1998, pages 106-110.  The cited source is Musa's "Software Reliability Data," DACS report, and say it comes from System 40.
 
 100 rows
 
 **stucki_tI.csv**
-Stucki L. G., Moranda P., Foshee G, and Omre R., "Final Report A Methodology for Producing Reliable Software vol I", Mar 1976, MDC G6210, McDonnell-Douglas Astronautics Company-West.  Who cites the source: Wagoner, W. L., "The Final Report on a Software Reliability Measurement Study," Report #TOR-0074 (4112)-1, Aerospace Corporation.
+Stucki L. G., Moranda P., Foshee G, and Omre R., "Final Report A Methodology for Producing Reliable Software vol I", Mar 1976, MDC G6210, McDonnell-Douglas Astronautics Company-West.  Who cites the source: Wagoner, W. L., "The Final Report on a Software Reliability Measurement Study", Report #TOR-0074 (4112)-1, Aerospace Corporation.
 
 15 rows
 
@@ -487,49 +518,49 @@ Tohma Y., Tokunaga K., Nagase S., and Murata Y., "Structural Approach to the Est
 The software system is a railway interlocking system and has about 14,500 assembly instructions. The cumulative test time is reported in days.
 
 **Xie_T1.csv**
-Xie M., Q. P. Hu, Y. P. Wu and S. H. Ng, "A Study of the Modeling and Analysis of Software Fault-detection and Fault-correction Processes," Quality and Reliability Engineering International, Vol 23(4), pages 459-470, 2007.
+Xie M., Q. P. Hu, Y. P. Wu and S. H. Ng, "A Study of the Modeling and Analysis of Software Fault-detection and Fault-correction Processes", Quality and Reliability Engineering International, Vol 23(4), pages 459-470, 2007.
 
 17 rows
 
 Faults detected and corrected in each week.
 
 **westgate_F1.csv**
-Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model", MSc. thesis, Sep 1989.
 
 197 rows
 
 Space system.  Failures with DOD severity code of 1 (System Abort. A software of firmware problem that results in a system abort.) or 2(System Degraded. No Work-around. A software of firmware problem that severely degrades the system and no alternative work-around exists (program restarts not acceptable)).  Date gives when the fault was discovered.
 
 **westgate_F2.csv**
-Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model", MSc. thesis, Sep 1989.
 
 16 rows
 
 Aircraft system.  Failures with DOD severity code of 1 (System Abort. A software of firmware problem that results in a system abort.) or 2(System Degraded. No Work-around. A software of firmware problem that severely degrades the system and no alternative work-around exists (program restarts not acceptable)).  Date gives when the fault was discovered.
 
 **westgate_F3.csv**
-Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model", MSc. thesis, Sep 1989.
 
 199 rows
 
 Communication system.  Failures with DOD severity code of 1 (System Abort. A software of firmware problem that results in a system abort.) or 2(System Degraded. No Work-around. A software of firmware problem that severely degrades the system and no alternative work-around exists (program restarts not acceptable)).  Date gives when the fault was discovered.
 
 **westgate_F4.csv**
-Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model", MSc. thesis, Sep 1989.
 
 202 rows
 
 Communication system. a Failures with DOD severity code of 1 (System Abort. A software of firmware problem that results in a system abort.) or 2(System Degraded. No Work-around. A software of firmware problem that severely degrades the system and no alternative work-around exists (program restarts not acceptable)).  Date gives when the fault was discovered.
 
 **westgate_F5.csv**
-Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model", MSc. thesis, Sep 1989.
 
 409 rows
 
 Space system.  Failures with DOD severity code of 1 (System Abort. A software of firmware problem that results in a system abort.) or 2(System Degraded. No Work-around. A software of firmware problem that severely degrades the system and no alternative work-around exists (program restarts not acceptable)).  Date gives when the fault was discovered.
 
 **westgate_F6.csv**
-Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model," MSc. thesis, Sep 1989.
+Westgate C. J., "Validation of an Exponentially Decreasing Failure Rate Software Reliability Model", MSc. thesis, Sep 1989.
 
 115 rows
 
