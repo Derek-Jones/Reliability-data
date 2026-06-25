@@ -120,13 +120,19 @@ Chillarege R., "Orthogonal Defect Classification", in [Handbook of Software Reli
 
 Crow, L. H. and Singpurwalla N. D., "An Empirically Developed Fourier Series model for describing software failures", Technical Report no-373, US Army Materiel Systems Analysis Activity, July 1983
 
+77 rows
+
 **crow_A2.csv**
 
 Crow, L. H. and Singpurwalla N. D., "An Empirically Developed Fourier Series model for describing software failures", Technical Report no-373, US Army Materiel Systems Analysis Activity, July 1983
 
+67 rows
+
 **crow_B1.csv**
 
 Crow, L. H. and Singpurwalla N. D., "An Empirically Developed Fourier Series model for describing software failures", Technical Report no-373, US Army Materiel Systems Analysis Activity, July 1983
+
+57 rows
 
 **dalal_tI.csv**
 Dalal S. R. and McIntosh A. A.,"When to Stop Testing for Large Software Systems with Changing Code", IEEE Transactions on Software Engineering, vol 20(4) Apr 1994, pages 318-323.
